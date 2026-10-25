@@ -73,6 +73,28 @@ class Settings(BaseSettings):
     local_user_id: str = "local-advisor"
     local_role: str = "advisor"
 
+    # 无需输入 API Key 的公网演示；匿名会话用签名 Cookie 隔离。
+    public_demo: bool = False
+    demo_session_secret: str = ""
+    llm_budget_enabled: bool = False
+    llm_daily_token_limit: int = 500_000
+    llm_daily_call_limit: int = 60
+    llm_calls_per_minute: int = 6
+    llm_max_concurrency: int = 1
+    llm_input_token_limit: int = 40_000
+    llm_extract_output_limit: int = 1_500
+    llm_guidance_output_limit: int = 800
+    llm_plan_output_limit: int = 6_000
+
+    @field_validator("llm_daily_token_limit", "llm_daily_call_limit", "llm_calls_per_minute",
+                     "llm_max_concurrency", "llm_input_token_limit", "llm_extract_output_limit",
+                     "llm_guidance_output_limit", "llm_plan_output_limit")
+    @classmethod
+    def positive_budget(cls, v: int) -> int:
+        if v < 1:
+            raise ValueError("模型使用限制必须为正整数")
+        return v
+
     @field_validator("w_commercial")
     @classmethod
     def cap_commercial(cls, v: float) -> float:

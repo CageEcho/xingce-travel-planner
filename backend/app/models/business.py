@@ -92,3 +92,10 @@ class TraceLog(Base):
     payload: Mapped[dict | None] = mapped_column(JSONB)
     created_at: Mapped[datetime] = mapped_column(TIMESTAMP(timezone=True), nullable=False,
                                                  server_default=func.now())
+
+
+class LLMUsageBudget(Base):
+    __tablename__ = "llm_usage_budget"
+    bucket: Mapped[str] = mapped_column(Text, primary_key=True)
+    tokens: Mapped[int] = mapped_column(BigInteger, nullable=False, default=0)
+    calls: Mapped[int] = mapped_column(Integer, nullable=False, default=0)

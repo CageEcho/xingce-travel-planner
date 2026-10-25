@@ -36,7 +36,8 @@ def resolve_database_url(url: str | None = None) -> str:
     import pgserver  # 延迟导入：只有内嵌模式才需要
 
     raw = url[len("embedded://"):]
-    data_dir = Path(raw.lstrip("/") or ".pgdata")
+    # 云端代码目录可能只读；允许把演示数据库放到独立可写目录。
+    data_dir = Path(os.environ.get("XINGCE_PGDATA") or raw.lstrip("/") or ".pgdata")
     if not data_dir.is_absolute():
         data_dir = ROOT_DIR / data_dir
     data_dir.mkdir(parents=True, exist_ok=True)

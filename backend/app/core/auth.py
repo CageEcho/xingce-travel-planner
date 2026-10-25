@@ -9,7 +9,7 @@ import hmac
 import json
 from typing import Annotated, Callable, Literal
 
-from fastapi import Depends, Header
+from fastapi import Depends, Header, Request
 from pydantic import BaseModel
 
 from app.core.config import settings
@@ -57,10 +57,13 @@ def _credentials() -> dict[str, Principal]:
 
 
 def current_principal(
+    request: Request,
     authorization: Annotated[str | None, Header()] = None,
     x_api_key: Annotated[str | None, Header()] = None,
 ) -> Principal:
     if not settings.auth_enabled:
+        if settings.public_demo:
+            return Principal(user_id=request.state.demo_user_id, role="advisor")
         return Principal(user_id=settings.local_user_id, role=settings.local_role)
     token = x_api_key or ""
     if authorization and authorization.lower().startswith("bearer "):

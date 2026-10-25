@@ -32,6 +32,7 @@ from pydantic import BaseModel, ValidationError
 from app.core.config import settings
 from app.core.errors import AppError
 from app.core.privacy import redact_pii
+from app.core.token_budget import model_slot, output_limit, reserve, settle
 
 log = logging.getLogger("app.llm")
 
@@ -73,7 +74,8 @@ def get_client() -> anthropic.Anthropic:
     global _client
     if _client is None:
         timeout = float(settings.llm_call_timeout_sec)
-        kwargs: dict[str, Any] = {"max_retries": 2, "timeout": timeout}
+        # 所有重试必须先预留额度；关闭 SDK 隐式重试，避免绕过计量。
+        kwargs: dict[str, Any] = {"max_retries": 0 if settings.llm_budget_enabled else 2, "timeout": timeout}
         verify = _model_ssl_context()
         if verify is not None:
             kwargs["http_client"] = anthropic.DefaultHttpxClient(verify=verify, trust_env=True, timeout=timeout)
@@ -139,9 +141,11 @@ def parse_structured(*, system: str, user: str, output_format: type[T], max_toke
                      effort: str | None = None) -> LLMResult:
     """单次结构化输出调用（提供方无关）。解析失败重试 1 次。"""
     system, user = _prepare_model_input(system, user)
-    if settings.llm_provider == "deepseek":
-        return _parse_deepseek(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
-    return _parse_anthropic(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
+    max_tokens = output_limit(output_format, max_tokens)
+    with model_slot():
+        if settings.llm_provider == "deepseek":
+            return _parse_deepseek(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
+        return _parse_anthropic(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
 
 
 def _prepare_model_input(system: str, user: str) -> tuple[str, str]:
@@ -168,10 +172,13 @@ def _parse_anthropic(*, system: str, user: str, output_format: type[T], max_toke
     t0 = time.perf_counter()
     last_err: Exception | None = None
     for attempt in range(2):
+        reservation = reserve(system, user, output_format, max_tokens)
         try:
             resp = client.messages.parse(**kwargs)
         except anthropic.AnthropicError as e:
             raise _map_sdk_error(e) from e
+
+        settle(reservation, resp)
 
         if resp.stop_reason == "refusal":
             raise AppError("LLM_FAILED", "模型拒绝了本次请求，请调整输入后重试")
@@ -324,10 +331,13 @@ def _parse_deepseek(*, system: str, user: str, output_format: type[T], max_token
     content = user
     for attempt in range(max(1, settings.deepseek_max_attempts)):
         kwargs["messages"] = [{"role": "user", "content": content}]
+        reservation = reserve(system, content, output_format, max_tokens)
         try:
             resp, raw_json = _stream_with_raw_json(client, kwargs)
         except anthropic.AnthropicError as e:
             raise _map_sdk_error(e) from e
+
+        settle(reservation, resp)
 
         block = next((b for b in resp.content if getattr(b, "type", None) == "tool_use" and getattr(b, "name", None) == RESULT_TOOL), None)
         raw_input: Any = block.input if block is not None else None

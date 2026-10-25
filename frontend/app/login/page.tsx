@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { ShieldCheck } from "lucide-react";
 import { Alert } from "@/components/ui/alert";
@@ -14,6 +14,12 @@ export default function LoginPage() {
   const [key, setKey] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [checking, setChecking] = useState(true);
+
+  useEffect(() => {
+    // 公开演示无需用户提供密钥；旧 /login 链接也直接返回工作台。
+    conversationApi.me().then(() => router.replace("/")).catch(() => setChecking(false));
+  }, [router]);
 
   async function login(event: FormEvent) {
     event.preventDefault();
@@ -29,6 +35,8 @@ export default function LoginPage() {
       setLoading(false);
     }
   }
+
+  if (checking) return <main className="min-h-screen grid place-items-center text-muted">正在打开行策工作台…</main>;
 
   return (
     <main className="min-h-screen grid place-items-center bg-canvas p-4">
