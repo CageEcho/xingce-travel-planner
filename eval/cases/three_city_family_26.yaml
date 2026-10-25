@@ -1,0 +1,23 @@
+id: three_city_family_26
+family: hard_constraint_trap
+input: 两家人一起，四个大人两个孩子（6 岁、9 岁），东京箱根京都 8 天，住五星或奢华，忌生食。
+slots:
+  destination_cities: [东京, 箱根, 京都]
+  date_start: '2026-10-14'
+  duration_days: 8
+  adults: 4
+  children: 2
+  child_ages: [6, 9]
+  budget_amount: 400000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [5star, luxury]
+  dietary: [no_raw]
+  accessibility: none
+  interests: [亲子, 温泉]
+generate: true
+expect:
+  max_blocking_violations: 0
+  min_days: 8
+  every_day_has_hotel: true
+note: 6 人需多间房（C3）；三城转场日不排高强度；忌生食

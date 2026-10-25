@@ -1,0 +1,20 @@
+id: halal_shortage_25
+family: null_handling
+input: 两位清真饮食的商务客人，箱根 2 天，住奢华。
+slots:
+  destination_cities: [箱根]
+  date_start: '2026-11-10'
+  duration_days: 2
+  adults: 2
+  children: 0
+  budget_amount: 60000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [luxury]
+  dietary: [halal]
+  accessibility: none
+generate: true
+expect:
+  max_blocking_violations: 0
+  forbid_code_fail: [H2]
+note: 箱根几乎没有清真餐厅：不得用 no_pork 冒充 halal，资源不足时留空并写假设

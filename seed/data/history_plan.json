@@ -1,0 +1,3628 @@
+[
+ {
+  "plan_id": "HIS-202604-001",
+  "travel_month": "2026-04",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   6,
+   9
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0043",
+   "HTL-HKN-0048"
+  ],
+  "route_ids": [
+   "RTE-TYO-02",
+   "RTE-HKN-01"
+  ],
+  "summary": "亲子家庭4人，东京、箱根 7 天，4 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-002",
+  "travel_month": "2026-01",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   6
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都"
+  ],
+  "days": 4,
+  "budget_band": "20–30 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-KYO-0015"
+  ],
+  "route_ids": [
+   "RTE-KYO-11",
+   "RTE-KYO-10",
+   "RTE-KYO-02"
+  ],
+  "summary": "三代同堂5人，京都 4 天，1 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 3,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-003",
+  "travel_month": "2025-05",
+  "party_type": "清真饮食客人",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "25–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "寺社"
+  ],
+  "dietary": [
+   "halal"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0068"
+  ],
+  "route_ids": [
+   "RTE-TYO-12"
+  ],
+  "summary": "清真饮食客人2人，东京、箱根 7 天，5 月出行；住五星；兴趣：购物、寺社；饮食：清真",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-004",
+  "travel_month": "2025-05",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 3,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0034"
+  ],
+  "route_ids": [
+   "RTE-KYO-15",
+   "RTE-KYO-03"
+  ],
+  "summary": "商务+休闲2人，京都 3 天，5 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。；旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-005",
+  "travel_month": "2026-01",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 9,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0004",
+   "HTL-HKN-0004",
+   "HTL-KYO-0072"
+  ],
+  "route_ids": [
+   "RTE-HKN-10",
+   "RTE-KYO-12",
+   "RTE-TYO-10"
+  ],
+  "summary": "蜜月夫妇2人，东京、箱根、京都 9 天，1 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202506-006",
+  "travel_month": "2025-06",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0075",
+   "HTL-HKN-0019"
+  ],
+  "route_ids": [
+   "RTE-KYO-15",
+   "RTE-HKN-10"
+  ],
+  "summary": "蜜月夫妇2人，京都、箱根 7 天，6 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202508-007",
+  "travel_month": "2025-08",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "12–22 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0081",
+   "HTL-HKN-0009"
+  ],
+  "route_ids": [
+   "RTE-HKN-10",
+   "RTE-KYO-15",
+   "RTE-HKN-08"
+  ],
+  "summary": "蜜月夫妇2人，京都、箱根 7 天，8 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-008",
+  "travel_month": "2025-05",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   3,
+   10
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0066",
+   "HTL-HKN-0045"
+  ],
+  "route_ids": [
+   "RTE-TYO-01"
+  ],
+  "summary": "亲子家庭4人，东京、箱根 5 天，5 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-009",
+  "travel_month": "2026-01",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   3,
+   12
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "40–50 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0004",
+   "HTL-HKN-0042"
+  ],
+  "route_ids": [
+   "RTE-KYO-02"
+  ],
+  "summary": "亲子家庭4人，京都、箱根 5 天，1 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 3,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202504-010",
+  "travel_month": "2025-04",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   3,
+   10
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0035"
+  ],
+  "route_ids": [
+   "RTE-KYO-01",
+   "RTE-KYO-02"
+  ],
+  "summary": "亲子家庭4人，京都 5 天，4 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "修改后成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-011",
+  "travel_month": "2026-03",
+  "party_type": "清真饮食客人",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "10–15 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "寺社"
+  ],
+  "dietary": [
+   "halal"
+  ],
+  "accessibility": null,
+  "hotel_ids": [],
+  "route_ids": [],
+  "summary": "清真饮食客人2人，箱根 3 天，3 月出行；住五星；兴趣：购物、寺社；饮食：清真",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-012",
+  "travel_month": "2025-03",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   8
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-KYO-0001",
+   "HTL-HKN-0047"
+  ],
+  "route_ids": [
+   "RTE-KYO-11"
+  ],
+  "summary": "三代同堂5人，京都、箱根 6 天，3 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "行程冲突"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202507-013",
+  "travel_month": "2025-07",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   4,
+   7
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 9,
+  "budget_band": "10–15 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0066",
+   "HTL-HKN-0005",
+   "HTL-KYO-0020"
+  ],
+  "route_ids": [
+   "RTE-HKN-01",
+   "RTE-KYO-02"
+  ],
+  "summary": "亲子家庭4人，东京、箱根、京都 9 天，7 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-014",
+  "travel_month": "2026-02",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "8–18 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0060",
+   "HTL-HKN-0052",
+   "HTL-KYO-0054"
+  ],
+  "route_ids": [
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，东京、箱根、京都 8 天，2 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-015",
+  "travel_month": "2025-05",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   3,
+   6
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0062",
+   "HTL-KYO-0037"
+  ],
+  "route_ids": [
+   "RTE-KYO-01",
+   "RTE-TYO-02",
+   "RTE-TYO-01"
+  ],
+  "summary": "亲子家庭4人，东京、京都 7 天，5 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 3,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-016",
+  "travel_month": "2026-01",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   5,
+   10
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-T8-001",
+   "HTL-KYO-T8-001"
+  ],
+  "route_ids": [
+   "RTE-HKN-01"
+  ],
+  "summary": "大家庭8人，东京、箱根、京都 8 天，1 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202504-017",
+  "travel_month": "2025-04",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京"
+  ],
+  "days": 4,
+  "budget_band": "12–17 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0016"
+  ],
+  "route_ids": [
+   "RTE-TYO-14",
+   "RTE-TYO-12"
+  ],
+  "summary": "蜜月夫妇2人，东京 4 天，4 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "修改后成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-018",
+  "travel_month": "2026-03",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   12
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "12–22 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0038"
+  ],
+  "route_ids": [
+   "RTE-HKN-02",
+   "RTE-KYO-15"
+  ],
+  "summary": "素食家庭3人，京都、箱根 6 天，3 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "未成交",
+  "rework_rounds": 3,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-019",
+  "travel_month": "2026-01",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京"
+  ],
+  "days": 6,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0030"
+  ],
+  "route_ids": [
+   "RTE-TYO-12"
+  ],
+  "summary": "蜜月夫妇2人，东京 6 天，1 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-020",
+  "travel_month": "2025-12",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   9,
+   9
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京"
+  ],
+  "days": 6,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0074"
+  ],
+  "route_ids": [
+   "RTE-TYO-01",
+   "RTE-TYO-02"
+  ],
+  "summary": "亲子家庭4人，东京 6 天，12 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-021",
+  "travel_month": "2026-01",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0053",
+   "HTL-HKN-0050"
+  ],
+  "route_ids": [
+   "RTE-TYO-12"
+  ],
+  "summary": "闺蜜出游3人，东京、箱根 6 天，1 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202605-022",
+  "travel_month": "2026-05",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 9,
+  "budget_band": "25–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0043",
+   "HTL-HKN-0043",
+   "HTL-KYO-0021"
+  ],
+  "route_ids": [
+   "RTE-KYO-03"
+  ],
+  "summary": "商务+休闲2人，东京、箱根、京都 9 天，5 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202606-023",
+  "travel_month": "2026-06",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   5
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "8–18 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-TYO-0004",
+   "HTL-KYO-0027"
+  ],
+  "route_ids": [
+   "RTE-TYO-02",
+   "RTE-KYO-02"
+  ],
+  "summary": "三代同堂5人，东京、京都 7 天，6 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "修改后成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202509-024",
+  "travel_month": "2025-09",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "40–50 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0015"
+  ],
+  "route_ids": [
+   "RTE-HKN-09"
+  ],
+  "summary": "蜜月夫妇2人，箱根 3 天，9 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "行程冲突"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-025",
+  "travel_month": "2025-12",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   3,
+   10
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0031",
+   "HTL-HKN-0042"
+  ],
+  "route_ids": [
+   "RTE-TYO-02",
+   "RTE-TYO-01"
+  ],
+  "summary": "亲子家庭4人，东京、箱根 7 天，12 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "未成交",
+  "rework_rounds": 3,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差",
+   "行程冲突"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-026",
+  "travel_month": "2026-01",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 6,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0053",
+   "HTL-KYO-0004"
+  ],
+  "route_ids": [
+   "RTE-KYO-15",
+   "RTE-TYO-12"
+  ],
+  "summary": "闺蜜出游3人，东京、京都 6 天，1 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-027",
+  "travel_month": "2025-05",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   9
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-TYO-0009",
+   "HTL-HKN-0043"
+  ],
+  "route_ids": [
+   "RTE-HKN-07",
+   "RTE-TYO-09",
+   "RTE-TYO-08"
+  ],
+  "summary": "三代同堂5人，东京、箱根 7 天，5 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。；餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202604-028",
+  "travel_month": "2026-04",
+  "party_type": "清真饮食客人",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 10,
+  "budget_band": "12–17 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "寺社"
+  ],
+  "dietary": [
+   "halal"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0070",
+   "HTL-KYO-0051"
+  ],
+  "route_ids": [
+   "RTE-KYO-05",
+   "RTE-TYO-12",
+   "RTE-KYO-04"
+  ],
+  "summary": "清真饮食客人2人，东京、箱根、京都 10 天，4 月出行；住五星；兴趣：购物、寺社；饮食：清真",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。；餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202510-029",
+  "travel_month": "2025-10",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京"
+  ],
+  "days": 5,
+  "budget_band": "25–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-TYO-0004"
+  ],
+  "route_ids": [
+   "RTE-TYO-08"
+  ],
+  "summary": "轮椅长辈家庭3人，东京 5 天，10 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-030",
+  "travel_month": "2026-02",
+  "party_type": "银发夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "25–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "ryokan"
+  ],
+  "interests": [
+   "寺社",
+   "庭园",
+   "温泉"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "行动较慢，需要多休息",
+  "hotel_ids": [
+   "HTL-TYO-0025",
+   "HTL-HKN-0039"
+  ],
+  "route_ids": [
+   "RTE-TYO-06",
+   "RTE-HKN-06"
+  ],
+  "summary": "银发夫妇2人，东京、箱根 6 天，2 月出行；住奢华/高端旅馆；兴趣：寺社、庭园、温泉；饮食：忌生食；行动较慢，需要多休息",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-031",
+  "travel_month": "2026-03",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "箱根"
+  ],
+  "days": 2,
+  "budget_band": "25–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-HKN-0038"
+  ],
+  "route_ids": [
+   "RTE-HKN-09",
+   "RTE-HKN-07"
+  ],
+  "summary": "轮椅长辈家庭3人，箱根 2 天，3 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202510-032",
+  "travel_month": "2025-10",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 2,
+  "budget_band": "20–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0049"
+  ],
+  "route_ids": [
+   "RTE-HKN-03",
+   "RTE-HKN-02"
+  ],
+  "summary": "商务+休闲2人，箱根 2 天，10 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202508-033",
+  "travel_month": "2025-08",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   7
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-KYO-0014"
+  ],
+  "route_ids": [
+   "RTE-KYO-11"
+  ],
+  "summary": "三代同堂5人，京都 5 天，8 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "成交",
+  "rework_rounds": 3,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202510-034",
+  "travel_month": "2025-10",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   6,
+   8
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0036"
+  ],
+  "route_ids": [
+   "RTE-KYO-02",
+   "RTE-HKN-01",
+   "RTE-KYO-13"
+  ],
+  "summary": "大家庭8人，京都、箱根 6 天，10 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202507-035",
+  "travel_month": "2025-07",
+  "party_type": "清真饮食客人",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "寺社"
+  ],
+  "dietary": [
+   "halal"
+  ],
+  "accessibility": null,
+  "hotel_ids": [],
+  "route_ids": [],
+  "summary": "清真饮食客人2人，箱根 3 天，7 月出行；住五星；兴趣：购物、寺社；饮食：清真",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-036",
+  "travel_month": "2025-03",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 9,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0061",
+   "HTL-KYO-0092"
+  ],
+  "route_ids": [
+   "RTE-TYO-12",
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，东京、京都 9 天，3 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-037",
+  "travel_month": "2025-03",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-T1-001",
+   "HTL-HKN-0045"
+  ],
+  "route_ids": [
+   "RTE-HKN-03",
+   "RTE-KYO-15"
+  ],
+  "summary": "商务+休闲2人，京都、箱根 5 天，3 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-038",
+  "travel_month": "2026-03",
+  "party_type": "银发夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京"
+  ],
+  "days": 6,
+  "budget_band": "8–18 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "ryokan"
+  ],
+  "interests": [
+   "寺社",
+   "庭园",
+   "温泉"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "行动较慢，需要多休息",
+  "hotel_ids": [
+   "HTL-TYO-0123"
+  ],
+  "route_ids": [
+   "RTE-TYO-05",
+   "RTE-TYO-08"
+  ],
+  "summary": "银发夫妇2人，东京 6 天，3 月出行；住奢华/高端旅馆；兴趣：寺社、庭园、温泉；饮食：忌生食；行动较慢，需要多休息",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202605-039",
+  "travel_month": "2026-05",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0002",
+   "HTL-KYO-T2-002"
+  ],
+  "route_ids": [
+   "RTE-TYO-13",
+   "RTE-TYO-11",
+   "RTE-TYO-14"
+  ],
+  "summary": "蜜月夫妇2人，东京、京都 8 天，5 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202606-040",
+  "travel_month": "2026-06",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "12–22 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0078",
+   "HTL-HKN-0050",
+   "HTL-KYO-0036"
+  ],
+  "route_ids": [
+   "RTE-TYO-12",
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，东京、箱根、京都 8 天，6 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202508-041",
+  "travel_month": "2025-08",
+  "party_type": "亲子家庭",
+  "adults": 2,
+  "children": 2,
+  "child_ages": [
+   8,
+   9
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 6,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "亲子",
+   "动漫",
+   "主题乐园"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0029",
+   "HTL-HKN-0039"
+  ],
+  "route_ids": [
+   "RTE-KYO-02",
+   "RTE-HKN-01",
+   "RTE-KYO-01"
+  ],
+  "summary": "亲子家庭4人，京都、箱根 6 天，8 月出行；住五星/奢华；兴趣：亲子、动漫、主题乐园",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 3,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202510-042",
+  "travel_month": "2025-10",
+  "party_type": "银发夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "ryokan"
+  ],
+  "interests": [
+   "寺社",
+   "庭园",
+   "温泉"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "行动较慢，需要多休息",
+  "hotel_ids": [
+   "HTL-TYO-0123",
+   "HTL-KYO-T1-001"
+  ],
+  "route_ids": [
+   "RTE-KYO-06",
+   "RTE-KYO-07"
+  ],
+  "summary": "银发夫妇2人，东京、京都 8 天，10 月出行；住奢华/高端旅馆；兴趣：寺社、庭园、温泉；饮食：忌生食；行动较慢，需要多休息",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202504-043",
+  "travel_month": "2025-04",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 9,
+  "budget_band": "30–35 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-TYO-0032",
+   "HTL-HKN-0043",
+   "HTL-KYO-0021"
+  ],
+  "route_ids": [
+   "RTE-HKN-07",
+   "RTE-KYO-10"
+  ],
+  "summary": "轮椅长辈家庭3人，东京、箱根、京都 9 天，4 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-044",
+  "travel_month": "2025-12",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "10–15 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0060",
+   "HTL-HKN-0050"
+  ],
+  "route_ids": [
+   "RTE-TYO-12"
+  ],
+  "summary": "闺蜜出游3人，东京、箱根 5 天，12 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-045",
+  "travel_month": "2026-02",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   6,
+   8
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都"
+  ],
+  "days": 3,
+  "budget_band": "12–17 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0036"
+  ],
+  "route_ids": [
+   "RTE-KYO-13"
+  ],
+  "summary": "大家庭8人，京都 3 天，2 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "修改后成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-046",
+  "travel_month": "2025-12",
+  "party_type": "银发夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "ryokan"
+  ],
+  "interests": [
+   "寺社",
+   "庭园",
+   "温泉"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "行动较慢，需要多休息",
+  "hotel_ids": [
+   "HTL-TYO-0038",
+   "HTL-HKN-0030",
+   "HTL-KYO-T2-001"
+  ],
+  "route_ids": [
+   "RTE-TYO-13",
+   "RTE-KYO-06"
+  ],
+  "summary": "银发夫妇2人，东京、箱根、京都 7 天，12 月出行；住奢华/高端旅馆；兴趣：寺社、庭园、温泉；饮食：忌生食；行动较慢，需要多休息",
+  "outcome": "成交",
+  "rework_rounds": 3,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202509-047",
+  "travel_month": "2025-09",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0037"
+  ],
+  "route_ids": [
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，京都 5 天，9 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202509-048",
+  "travel_month": "2025-09",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "12–17 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0003"
+  ],
+  "route_ids": [
+   "RTE-KYO-03"
+  ],
+  "summary": "商务+休闲2人，京都 5 天，9 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "成交",
+  "rework_rounds": 2,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。；同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-049",
+  "travel_month": "2026-02",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 2,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0050"
+  ],
+  "route_ids": [],
+  "summary": "闺蜜出游3人，箱根 2 天，2 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202507-050",
+  "travel_month": "2025-07",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京"
+  ],
+  "days": 5,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-TYO-0023"
+  ],
+  "route_ids": [
+   "RTE-TYO-13",
+   "RTE-TYO-08",
+   "RTE-TYO-14"
+  ],
+  "summary": "轮椅长辈家庭3人，东京 5 天，7 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。；车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-051",
+  "travel_month": "2026-02",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   13
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京"
+  ],
+  "days": 5,
+  "budget_band": "12–22 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0009"
+  ],
+  "route_ids": [
+   "RTE-TYO-04"
+  ],
+  "summary": "素食家庭3人，东京 5 天，2 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 3,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-052",
+  "travel_month": "2025-03",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   7
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-KYO-0026",
+   "HTL-HKN-0042"
+  ],
+  "route_ids": [
+   "RTE-KYO-10",
+   "RTE-HKN-07"
+  ],
+  "summary": "三代同堂5人，京都、箱根 5 天，3 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202506-053",
+  "travel_month": "2025-06",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 4,
+  "budget_band": "20–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0042"
+  ],
+  "route_ids": [
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，京都 4 天，6 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。；车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-054",
+  "travel_month": "2026-02",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0012"
+  ],
+  "route_ids": [
+   "RTE-HKN-08"
+  ],
+  "summary": "蜜月夫妇2人，箱根 3 天，2 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202507-055",
+  "travel_month": "2025-07",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   9
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 4,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0034"
+  ],
+  "route_ids": [
+   "RTE-KYO-03"
+  ],
+  "summary": "素食家庭3人，京都 4 天，7 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-056",
+  "travel_month": "2026-03",
+  "party_type": "闺蜜出游",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "12–17 万元（全家，不含机票）",
+  "hotel_tier": [
+   "boutique",
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "美食",
+   "咖啡"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0039"
+  ],
+  "route_ids": [
+   "RTE-KYO-15"
+  ],
+  "summary": "闺蜜出游3人，京都 5 天，3 月出行；住精品/五星；兴趣：购物、美食、咖啡",
+  "outcome": "成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。；旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202504-057",
+  "travel_month": "2025-04",
+  "party_type": "银发夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "ryokan"
+  ],
+  "interests": [
+   "寺社",
+   "庭园",
+   "温泉"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "行动较慢，需要多休息",
+  "hotel_ids": [
+   "HTL-TYO-0127",
+   "HTL-KYO-0082"
+  ],
+  "route_ids": [
+   "RTE-TYO-06"
+  ],
+  "summary": "银发夫妇2人，东京、京都 8 天，4 月出行；住奢华/高端旅馆；兴趣：寺社、庭园、温泉；饮食：忌生食；行动较慢，需要多休息",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-058",
+  "travel_month": "2025-12",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "20–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-HKN-0041"
+  ],
+  "route_ids": [
+   "RTE-HKN-03",
+   "RTE-HKN-10"
+  ],
+  "summary": "轮椅长辈家庭3人，箱根 3 天，12 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-059",
+  "travel_month": "2026-01",
+  "party_type": "清真饮食客人",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "购物",
+   "寺社"
+  ],
+  "dietary": [
+   "halal"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0054",
+   "HTL-KYO-0048"
+  ],
+  "route_ids": [
+   "RTE-KYO-05",
+   "RTE-KYO-04",
+   "RTE-TYO-12"
+  ],
+  "summary": "清真饮食客人2人，东京、京都 8 天，1 月出行；住五星；兴趣：购物、寺社；饮食：清真",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 3,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202505-060",
+  "travel_month": "2025-05",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "10–15 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0059",
+   "HTL-HKN-0038",
+   "HTL-KYO-0042"
+  ],
+  "route_ids": [
+   "RTE-TYO-03",
+   "RTE-HKN-03"
+  ],
+  "summary": "商务+休闲2人，东京、箱根、京都 8 天，5 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "成交",
+  "rework_rounds": 1,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "行程冲突"
+  ],
+  "lessons": "周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202506-061",
+  "travel_month": "2025-06",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0043"
+  ],
+  "route_ids": [
+   "RTE-HKN-02",
+   "RTE-HKN-03"
+  ],
+  "summary": "商务+休闲2人，箱根 3 天，6 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-062",
+  "travel_month": "2026-02",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   6,
+   10
+  ],
+  "with_elderly": true,
+  "cities": [
+   "京都"
+  ],
+  "days": 5,
+  "budget_band": "10–15 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0047"
+  ],
+  "route_ids": [
+   "RTE-KYO-02"
+  ],
+  "summary": "大家庭8人，京都 5 天，2 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "未成交",
+  "rework_rounds": 0,
+  "client_rating": null,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202506-063",
+  "travel_month": "2025-06",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0022",
+   "HTL-HKN-0006"
+  ],
+  "route_ids": [
+   "RTE-HKN-08",
+   "RTE-HKN-09",
+   "RTE-TYO-12"
+  ],
+  "summary": "蜜月夫妇2人，东京、箱根 5 天，6 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-064",
+  "travel_month": "2025-12",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 10,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0027",
+   "HTL-HKN-0045",
+   "HTL-KYO-0015"
+  ],
+  "route_ids": [
+   "RTE-KYO-03",
+   "RTE-TYO-12",
+   "RTE-TYO-04"
+  ],
+  "summary": "商务+休闲2人，东京、箱根、京都 10 天，12 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-065",
+  "travel_month": "2026-02",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   10
+  ],
+  "with_elderly": false,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-KYO-0046"
+  ],
+  "route_ids": [
+   "RTE-HKN-02"
+  ],
+  "summary": "素食家庭3人，京都、箱根 5 天，2 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-066",
+  "travel_month": "2026-01",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "箱根"
+  ],
+  "days": 3,
+  "budget_band": "15–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-HKN-0042"
+  ],
+  "route_ids": [
+   "RTE-HKN-09"
+  ],
+  "summary": "轮椅长辈家庭3人，箱根 3 天，1 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。；同一天排了箱根和京都的景点，通勤超过 5 小时，已拆成转场日。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202508-067",
+  "travel_month": "2025-08",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-KYO-0015",
+   "HTL-HKN-0041"
+  ],
+  "route_ids": [
+   "RTE-HKN-07",
+   "RTE-KYO-03"
+  ],
+  "summary": "轮椅长辈家庭3人，京都、箱根 5 天，8 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "修改后成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202603-068",
+  "travel_month": "2026-03",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0030",
+   "HTL-HKN-0037"
+  ],
+  "route_ids": [
+   "RTE-TYO-12",
+   "RTE-TYO-13",
+   "RTE-HKN-10"
+  ],
+  "summary": "蜜月夫妇2人，东京、箱根 5 天，3 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "修改后成交",
+  "rework_rounds": 3,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "知识缺失",
+   "行程冲突"
+  ],
+  "lessons": "车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。；餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202601-069",
+  "travel_month": "2026-01",
+  "party_type": "商务+休闲",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "箱根"
+  ],
+  "days": 2,
+  "budget_band": "12–22 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star",
+   "luxury"
+  ],
+  "interests": [
+   "美食",
+   "艺术"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-HKN-0005"
+  ],
+  "route_ids": [
+   "RTE-HKN-02"
+  ],
+  "summary": "商务+休闲2人，箱根 2 天，1 月出行；住五星/奢华；兴趣：美食、艺术",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 4,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202606-070",
+  "travel_month": "2026-06",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   8
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "20–30 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-T8-001"
+  ],
+  "route_ids": [
+   "RTE-HKN-02"
+  ],
+  "summary": "素食家庭3人，东京、箱根 5 天，6 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差",
+   "行程冲突"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。；餐厅周二定休但排在周二晚餐，已改为同区域营业的餐厅。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202509-071",
+  "travel_month": "2025-09",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "20–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0019",
+   "HTL-HKN-T1-001",
+   "HTL-KYO-0018"
+  ],
+  "route_ids": [
+   "RTE-TYO-11",
+   "RTE-KYO-15"
+  ],
+  "summary": "蜜月夫妇2人，东京、箱根、京都 7 天，9 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202605-072",
+  "travel_month": "2026-05",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0033",
+   "HTL-KYO-0031"
+  ],
+  "route_ids": [
+   "RTE-TYO-10"
+  ],
+  "summary": "蜜月夫妇2人，东京、京都 7 天，5 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "未成交",
+  "rework_rounds": 2,
+  "client_rating": null,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。；餐厅是否支持忌生食未记录，临时电话确认后替换，已要求供应商补全饮食字段。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-073",
+  "travel_month": "2025-03",
+  "party_type": "三代同堂",
+  "adults": 4,
+  "children": 1,
+  "child_ages": [
+   9
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 10,
+  "budget_band": "30–40 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury",
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "动物",
+   "火车"
+  ],
+  "dietary": [
+   "no_raw"
+  ],
+  "accessibility": "长辈膝盖不好，少台阶",
+  "hotel_ids": [
+   "HTL-TYO-0004",
+   "HTL-HKN-0005",
+   "HTL-KYO-0015"
+  ],
+  "route_ids": [
+   "RTE-KYO-10",
+   "RTE-KYO-11"
+  ],
+  "summary": "三代同堂5人，东京、箱根、京都 10 天，3 月出行；住奢华/五星；兴趣：亲子、动物、火车；饮食：忌生食；长辈膝盖不好，少台阶",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202503-074",
+  "travel_month": "2025-03",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   14
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京"
+  ],
+  "days": 4,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0006"
+  ],
+  "route_ids": [
+   "RTE-TYO-03",
+   "RTE-TYO-04"
+  ],
+  "summary": "素食家庭3人，东京 4 天，3 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "知识缺失"
+  ],
+  "lessons": "客户说「安静」，召回了商务感重的酒店，已给 quiet 标签与客群标签联合加权。；车辆行李容量未记录，客人 6 个大箱子差点装不下，已补录 28 寸箱容量。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202604-075",
+  "travel_month": "2026-04",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "25–30 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-TYO-0032",
+   "HTL-KYO-T1-001"
+  ],
+  "route_ids": [
+   "RTE-TYO-03"
+  ],
+  "summary": "轮椅长辈家庭3人，东京、京都 8 天，4 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202504-076",
+  "travel_month": "2025-04",
+  "party_type": "蜜月夫妇",
+  "adults": 2,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根",
+   "京都"
+  ],
+  "days": 7,
+  "budget_band": "8–13 万元（全家，不含机票）",
+  "hotel_tier": [
+   "ryokan",
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "摄影",
+   "美食"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0025",
+   "HTL-HKN-0034",
+   "HTL-KYO-0059"
+  ],
+  "route_ids": [
+   "RTE-TYO-11"
+  ],
+  "summary": "蜜月夫妇2人，东京、箱根、京都 7 天，4 月出行；住高端旅馆/奢华；兴趣：温泉、摄影、美食",
+  "outcome": "修改后成交",
+  "rework_rounds": 2,
+  "client_rating": 5,
+  "bad_case_tags": [
+   "检索偏差",
+   "行程冲突"
+  ],
+  "lessons": "「住好一点」被直接理解为奢华档，超出预算，已改为必须追问档次。；周一安排了国立博物馆（周一闭馆），被约束校验拦截后改为周二。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202512-077",
+  "travel_month": "2025-12",
+  "party_type": "轮椅长辈家庭",
+  "adults": 3,
+  "children": 0,
+  "child_ages": [],
+  "with_elderly": true,
+  "cities": [
+   "京都",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "luxury"
+  ],
+  "interests": [
+   "温泉",
+   "美术馆"
+  ],
+  "dietary": [],
+  "accessibility": "父亲使用轮椅",
+  "hotel_ids": [
+   "HTL-KYO-0020",
+   "HTL-HKN-0004"
+  ],
+  "route_ids": [
+   "RTE-KYO-11",
+   "RTE-HKN-06",
+   "RTE-KYO-03"
+  ],
+  "summary": "轮椅长辈家庭3人，京都、箱根 5 天，12 月出行；住奢华；兴趣：温泉、美术馆；父亲使用轮椅",
+  "outcome": "未成交",
+  "rework_rounds": 1,
+  "client_rating": null,
+  "bad_case_tags": [
+   "知识缺失"
+  ],
+  "lessons": "旅馆儿童年龄政策未记录，报价前才确认限 12 岁以上，已补录字段并加入必核清单。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202604-078",
+  "travel_month": "2026-04",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   6,
+   8
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 7,
+  "budget_band": "40–45 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0051"
+  ],
+  "route_ids": [
+   "RTE-TYO-01"
+  ],
+  "summary": "大家庭8人，东京、箱根 7 天，4 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "修改后成交",
+  "rework_rounds": 1,
+  "client_rating": 4,
+  "bad_case_tags": [
+   "检索偏差"
+  ],
+  "lessons": "亲子需求召回了只能住 2 人的精品酒店，已把房型容量提前到硬过滤。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202602-079",
+  "travel_month": "2026-02",
+  "party_type": "大家庭",
+  "adults": 6,
+  "children": 2,
+  "child_ages": [
+   5,
+   5
+  ],
+  "with_elderly": true,
+  "cities": [
+   "东京",
+   "京都"
+  ],
+  "days": 8,
+  "budget_band": "10–20 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "亲子",
+   "经典景点"
+  ],
+  "dietary": [],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0047",
+   "HTL-KYO-0036"
+  ],
+  "route_ids": [
+   "RTE-KYO-14",
+   "RTE-KYO-01",
+   "RTE-KYO-02"
+  ],
+  "summary": "大家庭8人，东京、京都 8 天，2 月出行；住五星；兴趣：亲子、经典景点",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ },
+ {
+  "plan_id": "HIS-202510-080",
+  "travel_month": "2025-10",
+  "party_type": "素食家庭",
+  "adults": 2,
+  "children": 1,
+  "child_ages": [
+   8
+  ],
+  "with_elderly": false,
+  "cities": [
+   "东京",
+   "箱根"
+  ],
+  "days": 5,
+  "budget_band": "15–25 万元（全家，不含机票）",
+  "hotel_tier": [
+   "5star"
+  ],
+  "interests": [
+   "艺术",
+   "购物"
+  ],
+  "dietary": [
+   "vegan"
+  ],
+  "accessibility": null,
+  "hotel_ids": [
+   "HTL-TYO-0049"
+  ],
+  "route_ids": [
+   "RTE-TYO-04",
+   "RTE-HKN-02",
+   "RTE-TYO-12"
+  ],
+  "summary": "素食家庭3人，东京、箱根 5 天，10 月出行；住五星；兴趣：艺术、购物；饮食：纯素",
+  "outcome": "成交",
+  "rework_rounds": 0,
+  "client_rating": 5,
+  "bad_case_tags": [],
+  "lessons": "一稿通过，无返工。",
+  "source_type": "historical_order",
+  "verified_status": "verified",
+  "is_synthetic": true,
+  "desensitized": true
+ }
+]

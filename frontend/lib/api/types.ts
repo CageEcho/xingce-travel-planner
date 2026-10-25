@@ -79,6 +79,7 @@ export interface ChecklistItem { code: string; day_index: number; resource_id: s
 export interface Provenance {
   resource_id: string; resource_type: string; updated_at: string | null; price_source: string | null; rate_id: string | null;
   matched_slots: string[]; satisfied_constraints: string[]; unknown_constraints: string[];
+  source_type?: string | null; verified_status?: string | null; verified_at?: string | null; review_due?: string | null;
 }
 export type ItemSlot = "morning" | "lunch" | "afternoon" | "dinner" | "evening" | "accommodation" | "transport";
 export type ItemType = "hotel" | "restaurant" | "poi" | "vehicle" | "transfer" | "free_time";
@@ -91,7 +92,11 @@ export interface RenderedDay {
   day_index: number; date: string; weekday: number; city: string; theme: string; is_transfer: boolean; items: RenderedItem[]; commute_min_est: number | null;
 }
 export interface RenderError { day_index: number; item_index: number; kind: string; resource_id: string | null; detail: string }
-export interface RenderedPlan { days: RenderedDay[]; assumptions: string[]; render_errors: RenderError[] }
+export interface Recommendation {
+  kind: "ticket" | "route"; ref_id: string; name_zh: string; city: string; day_index: number | null; reason: string;
+  reservation_required: boolean; lead_time_days: number; notes: string | null;
+}
+export interface RenderedPlan { days: RenderedDay[]; assumptions: string[]; render_errors: RenderError[]; recommendations?: Recommendation[] }
 
 export type CostCategory = "accommodation" | "transport" | "dining" | "tickets" | "service_fee";
 export interface CostLine {

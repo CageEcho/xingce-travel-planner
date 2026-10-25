@@ -23,7 +23,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-16",
+  "review_due": "2026-11-14"
  },
  {
   "rest_id": "RST-TYO-002",
@@ -52,7 +58,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-22",
+  "review_due": "2026-11-20"
  },
  {
   "rest_id": "RST-TYO-003",
@@ -80,7 +92,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-24",
+  "review_due": "2026-11-22"
  },
  {
   "rest_id": "RST-TYO-004",
@@ -107,7 +125,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-15",
+  "review_due": "2026-11-13"
  },
  {
   "rest_id": "RST-TYO-005",
@@ -134,7 +158,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-15",
+  "review_due": "2026-11-13"
  },
  {
   "rest_id": "RST-TYO-006",
@@ -163,7 +193,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
  },
  {
   "rest_id": "RST-TYO-007",
@@ -191,7 +227,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-21",
+  "review_due": "2026-11-19"
  },
  {
   "rest_id": "RST-TYO-008",
@@ -216,7 +258,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-28",
+  "review_due": "2026-11-26"
  },
  {
   "rest_id": "RST-TYO-009",
@@ -243,7 +291,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-19）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-19",
+  "review_due": "2026-11-17"
  },
  {
   "rest_id": "RST-TYO-010",
@@ -271,7 +325,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-28",
+  "review_due": "2026-11-26"
  },
  {
   "rest_id": "RST-TYO-011",
@@ -301,7 +361,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-25",
+  "review_due": "2026-11-23"
  },
  {
   "rest_id": "RST-TYO-012",
@@ -327,7 +393,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
  },
  {
   "rest_id": "RST-TYO-013",
@@ -355,7 +427,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-19）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-19",
+  "review_due": "2026-11-17"
  },
  {
   "rest_id": "RST-TYO-014",
@@ -381,7 +459,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-TYO-015",
@@ -404,7 +488,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
  },
  {
   "rest_id": "RST-TYO-016",
@@ -432,7 +522,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-20）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-20",
+  "review_due": "2026-11-18"
  },
  {
   "rest_id": "RST-TYO-017",
@@ -459,7 +555,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
  },
  {
   "rest_id": "RST-TYO-018",
@@ -485,7 +587,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-21",
+  "review_due": "2026-11-19"
  },
  {
   "rest_id": "RST-TYO-019",
@@ -512,7 +620,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-09-03",
+  "review_due": "2026-12-02"
  },
  {
   "rest_id": "RST-TYO-020",
@@ -540,7 +654,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-21",
+  "review_due": "2026-11-19"
  },
  {
   "rest_id": "RST-KYO-001",
@@ -566,7 +686,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
  },
  {
   "rest_id": "RST-KYO-002",
@@ -595,7 +721,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
  },
  {
   "rest_id": "RST-KYO-003",
@@ -623,7 +755,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-18）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-18",
+  "review_due": "2026-11-16"
  },
  {
   "rest_id": "RST-KYO-004",
@@ -648,7 +786,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-19）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-19",
+  "review_due": "2026-11-17"
  },
  {
   "rest_id": "RST-KYO-005",
@@ -676,7 +820,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-26）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-26",
+  "review_due": "2026-11-24"
  },
  {
   "rest_id": "RST-KYO-006",
@@ -706,7 +856,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-25",
+  "review_due": "2026-11-23"
  },
  {
   "rest_id": "RST-KYO-007",
@@ -732,7 +888,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-KYO-008",
@@ -757,7 +919,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-17）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-17",
+  "review_due": "2026-11-15"
  },
  {
   "rest_id": "RST-KYO-009",
@@ -786,7 +954,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-27）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-27",
+  "review_due": "2026-11-25"
  },
  {
   "rest_id": "RST-KYO-010",
@@ -814,7 +988,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-KYO-011",
@@ -841,7 +1021,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-KYO-012",
@@ -866,7 +1052,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-23）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-23",
+  "review_due": "2026-11-21"
  },
  {
   "rest_id": "RST-KYO-013",
@@ -894,7 +1086,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
  },
  {
   "rest_id": "RST-KYO-014",
@@ -922,7 +1120,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
  },
  {
   "rest_id": "RST-KYO-015",
@@ -948,7 +1152,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-22",
+  "review_due": "2026-11-20"
  },
  {
   "rest_id": "RST-KYO-016",
@@ -974,7 +1184,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
  },
  {
   "rest_id": "RST-KYO-017",
@@ -1001,7 +1217,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
  },
  {
   "rest_id": "RST-KYO-018",
@@ -1029,7 +1251,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-31）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-31",
+  "review_due": "2026-11-29"
  },
  {
   "rest_id": "RST-KYO-019",
@@ -1058,7 +1286,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-18）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-18",
+  "review_due": "2026-11-16"
  },
  {
   "rest_id": "RST-KYO-020",
@@ -1081,7 +1315,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-16",
+  "review_due": "2026-11-14"
  },
  {
   "rest_id": "RST-HKN-001",
@@ -1109,7 +1349,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-09-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-09-01",
+  "review_due": "2026-11-30"
  },
  {
   "rest_id": "RST-HKN-002",
@@ -1137,7 +1383,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
  },
  {
   "rest_id": "RST-HKN-003",
@@ -1164,7 +1416,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-23）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-23",
+  "review_due": "2026-11-21"
  },
  {
   "rest_id": "RST-HKN-004",
@@ -1189,7 +1447,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-22",
+  "review_due": "2026-11-20"
  },
  {
   "rest_id": "RST-HKN-005",
@@ -1218,7 +1482,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
  },
  {
   "rest_id": "RST-HKN-006",
@@ -1245,7 +1515,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-21",
+  "review_due": "2026-11-19"
  },
  {
   "rest_id": "RST-HKN-007",
@@ -1272,7 +1548,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
  },
  {
   "rest_id": "RST-HKN-008",
@@ -1297,7 +1579,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-25",
+  "review_due": "2026-11-23"
  },
  {
   "rest_id": "RST-HKN-009",
@@ -1323,7 +1611,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-HKN-010",
@@ -1352,7 +1646,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
  },
  {
   "rest_id": "RST-HKN-011",
@@ -1379,7 +1679,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-09-01",
+  "review_due": "2026-11-30"
  },
  {
   "rest_id": "RST-HKN-012",
@@ -1404,7 +1710,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
  },
  {
   "rest_id": "RST-HKN-013",
@@ -1430,7 +1742,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
  },
  {
   "rest_id": "RST-HKN-014",
@@ -1457,7 +1775,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-15",
+  "review_due": "2026-11-13"
  },
  {
   "rest_id": "RST-HKN-015",
@@ -1487,7 +1811,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-31）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-31",
+  "review_due": "2026-11-29"
  },
  {
   "rest_id": "RST-HKN-016",
@@ -1513,7 +1843,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-16",
+  "review_due": "2026-11-14"
  },
  {
   "rest_id": "RST-HKN-017",
@@ -1538,7 +1874,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
  },
  {
   "rest_id": "RST-HKN-018",
@@ -1565,7 +1907,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-20）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-20",
+  "review_due": "2026-11-18"
  },
  {
   "rest_id": "RST-HKN-019",
@@ -1590,7 +1938,13 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
  },
  {
   "rest_id": "RST-HKN-020",
@@ -1619,6 +1973,4158 @@
   ],
   "status": "active",
   "is_synthetic": true,
-  "updated_at": "2026-08-18T09:00:00+00:00"
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-22",
+  "review_due": "2026-11-20"
+ },
+ {
+  "rest_id": "RST-TYO-021",
+  "name_zh": "虎之门 割烹 鹤",
+  "name_local": "虎ノ門 割烹 鶴",
+  "city": "东京",
+  "district": "虎之门",
+  "lat": 35.664661,
+  "lng": 139.752066,
+  "cuisine": "kappo",
+  "price_band": "high",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "seasonal"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-07-07）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-07-07",
+  "review_due": "2026-10-05"
+ },
+ {
+  "rest_id": "RST-TYO-022",
+  "name_zh": "品川 精进 樱",
+  "name_local": "品川 精進 桜",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.628059,
+  "lng": 139.74076,
+  "cuisine": "shojin",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-06-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-06-25",
+  "review_due": "2026-09-23"
+ },
+ {
+  "rest_id": "RST-TYO-023",
+  "name_zh": "有乐町 鮨 萩",
+  "name_local": "有楽町 鮨 萩",
+  "city": "东京",
+  "district": "有乐町",
+  "lat": 35.678435,
+  "lng": 139.763763,
+  "cuisine": "sushi",
+  "price_band": "luxury",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "counter",
+   "omakase"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-23",
+  "review_due": "2026-11-21"
+ },
+ {
+  "rest_id": "RST-TYO-024",
+  "name_zh": "有乐町 精进 穗",
+  "name_local": "有楽町 精進 穂",
+  "city": "东京",
+  "district": "有乐町",
+  "lat": 35.67787,
+  "lng": 139.763462,
+  "cuisine": "shojin",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw",
+   "halal"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-07-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-01",
+  "review_due": "2026-09-29"
+ },
+ {
+  "rest_id": "RST-TYO-025",
+  "name_zh": "惠比寿 中华 灯",
+  "name_local": "恵比寿 中華 灯",
+  "city": "东京",
+  "district": "惠比寿",
+  "lat": 35.648459,
+  "lng": 139.710336,
+  "cuisine": "chinese",
+  "price_band": "high",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-30）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-19"
+ },
+ {
+  "rest_id": "RST-TYO-026",
+  "name_zh": "银座 鳗 汐",
+  "name_local": "銀座 うなぎ 汐",
+  "city": "东京",
+  "district": "银座",
+  "lat": 35.67049,
+  "lng": 139.766417,
+  "cuisine": "unagi",
+  "price_band": "high",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-17",
+  "review_due": "2026-11-15"
+ },
+ {
+  "rest_id": "RST-TYO-027",
+  "name_zh": "汐留 拉面 翠",
+  "name_local": "汐留 ラーメン 翠",
+  "city": "东京",
+  "district": "汐留",
+  "lat": 35.665103,
+  "lng": 139.762018,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-24",
+  "review_due": "2026-11-22"
+ },
+ {
+  "rest_id": "RST-TYO-028",
+  "name_zh": "台场 烧鸟 鹤",
+  "name_local": "台場 焼鳥 鶴",
+  "city": "东京",
+  "district": "台场",
+  "lat": 35.624549,
+  "lng": 139.77814,
+  "cuisine": "yakitori",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "counter",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-12 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-12",
+  "review_due": "2026-11-10"
+ },
+ {
+  "rest_id": "RST-TYO-029",
+  "name_zh": "六本木 寿喜锅 縁",
+  "name_local": "六本木 すき焼き 縁",
+  "city": "东京",
+  "district": "六本木",
+  "lat": 35.659069,
+  "lng": 139.731198,
+  "cuisine": "sukiyaki",
+  "price_band": "mid",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "private_room",
+   "wagyu",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-05",
+  "review_due": "2026-10-03"
+ },
+ {
+  "rest_id": "RST-TYO-030",
+  "name_zh": "惠比寿 烧鸟 雅",
+  "name_local": "恵比寿 焼鳥 雅",
+  "city": "东京",
+  "district": "惠比寿",
+  "lat": 35.646874,
+  "lng": 139.709502,
+  "cuisine": "yakitori",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "counter",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-05-09）",
+  "verified_status": "expired",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-05-09",
+  "review_due": "2026-08-07"
+ },
+ {
+  "rest_id": "RST-TYO-031",
+  "name_zh": "有乐町 拉面 舟",
+  "name_local": "有楽町 ラーメン 舟",
+  "city": "东京",
+  "district": "有乐町",
+  "lat": 35.673295,
+  "lng": 139.763966,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-13）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-13",
+  "review_due": "2026-11-11"
+ },
+ {
+  "rest_id": "RST-TYO-032",
+  "name_zh": "新宿 精进 灯",
+  "name_local": "新宿 精進 灯",
+  "city": "东京",
+  "district": "新宿",
+  "lat": 35.686501,
+  "lng": 139.702508,
+  "cuisine": "shojin",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-09-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-03",
+  "review_due": "2026-12-02"
+ },
+ {
+  "rest_id": "RST-TYO-033",
+  "name_zh": "汐留 精进 雅",
+  "name_local": "汐留 精進 雅",
+  "city": "东京",
+  "district": "汐留",
+  "lat": 35.666127,
+  "lng": 139.759527,
+  "cuisine": "shojin",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw",
+   "halal"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-041 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
+ },
+ {
+  "rest_id": "RST-TYO-034",
+  "name_zh": "赤坂 割烹 樱",
+  "name_local": "赤坂 割烹 桜",
+  "city": "东京",
+  "district": "赤坂",
+  "lat": 35.675607,
+  "lng": 139.738608,
+  "cuisine": "kappo",
+  "price_band": "luxury",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 7,
+  "tags": [
+   "counter",
+   "seasonal",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-18）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-18",
+  "review_due": "2026-11-16"
+ },
+ {
+  "rest_id": "RST-TYO-035",
+  "name_zh": "虎之门 意餐 舟",
+  "name_local": "虎ノ門 イタリアン 舟",
+  "city": "东京",
+  "district": "虎之门",
+  "lat": 35.664728,
+  "lng": 139.751214,
+  "cuisine": "italian",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "gluten_free"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "casual",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-03",
+  "review_due": "2026-10-01"
+ },
+ {
+  "rest_id": "RST-TYO-036",
+  "name_zh": "目黑 鮨 朴",
+  "name_local": "目黒 鮨 朴",
+  "city": "东京",
+  "district": "目黑",
+  "lat": 35.634602,
+  "lng": 139.714092,
+  "cuisine": "sushi",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "edomae",
+   "omakase",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-30 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
+ },
+ {
+  "rest_id": "RST-TYO-037",
+  "name_zh": "品川 鮨 萩",
+  "name_local": "品川 鮨 萩",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.629303,
+  "lng": 139.737972,
+  "cuisine": "sushi",
+  "price_band": "mid",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 0,
+  "tags": [
+   "edomae",
+   "omakase"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-08-24）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-19"
+ },
+ {
+  "rest_id": "RST-TYO-038",
+  "name_zh": "赤坂 割烹 岚",
+  "name_local": "赤坂 割烹 嵐",
+  "city": "东京",
+  "district": "赤坂",
+  "lat": 35.67408,
+  "lng": 139.737265,
+  "cuisine": "kappo",
+  "price_band": "high",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "seasonal"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-07-05）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-05",
+  "review_due": "2026-10-03"
+ },
+ {
+  "rest_id": "RST-TYO-039",
+  "name_zh": "汐留 拉面 宴",
+  "name_local": "汐留 ラーメン 宴",
+  "city": "东京",
+  "district": "汐留",
+  "lat": 35.665247,
+  "lng": 139.759213,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-14",
+  "review_due": "2026-11-12"
+ },
+ {
+  "rest_id": "RST-TYO-040",
+  "name_zh": "赤坂 居酒屋 樱",
+  "name_local": "赤坂 居酒屋 桜",
+  "city": "东京",
+  "district": "赤坂",
+  "lat": 35.672259,
+  "lng": 139.738008,
+  "cuisine": "izakaya",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-06-24",
+  "review_due": "2026-09-22"
+ },
+ {
+  "rest_id": "RST-TYO-041",
+  "name_zh": "赤坂 天麸罗 葵",
+  "name_local": "赤坂 天ぷら 葵",
+  "city": "东京",
+  "district": "赤坂",
+  "lat": 35.674734,
+  "lng": 139.740717,
+  "cuisine": "tempura",
+  "price_band": "high",
+  "closed_days": null,
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-04-19）",
+  "verified_status": "expired",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-04-19",
+  "review_due": "2026-07-18"
+ },
+ {
+  "rest_id": "RST-TYO-042",
+  "name_zh": "台场 烧鸟 萤",
+  "name_local": "台場 焼鳥 蛍",
+  "city": "东京",
+  "district": "台场",
+  "lat": 35.630006,
+  "lng": 139.771374,
+  "cuisine": "yakitori",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "counter",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-07",
+  "review_due": "2026-10-05"
+ },
+ {
+  "rest_id": "RST-TYO-043",
+  "name_zh": "汐留 涮涮锅 椿",
+  "name_local": "汐留 しゃぶしゃぶ 椿",
+  "city": "东京",
+  "district": "汐留",
+  "lat": 35.666248,
+  "lng": 139.757721,
+  "cuisine": "shabu",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-22 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-07-22",
+  "review_due": "2026-10-20"
+ },
+ {
+  "rest_id": "RST-TYO-044",
+  "name_zh": "丸之内 荞麦 萤",
+  "name_local": "丸の内 蕎麦 蛍",
+  "city": "东京",
+  "district": "丸之内",
+  "lat": 35.680833,
+  "lng": 139.770191,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-21）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-20"
+ },
+ {
+  "rest_id": "RST-TYO-045",
+  "name_zh": "汐留 鮨 舟",
+  "name_local": "汐留 鮨 舟",
+  "city": "东京",
+  "district": "汐留",
+  "lat": 35.664275,
+  "lng": 139.760081,
+  "cuisine": "sushi",
+  "price_band": "luxury",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "counter",
+   "omakase"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-03-22）",
+  "verified_status": "expired",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-03-22",
+  "review_due": "2026-06-20"
+ },
+ {
+  "rest_id": "RST-TYO-046",
+  "name_zh": "神乐坂 铁板 枫",
+  "name_local": "神楽坂 鉄板 楓",
+  "city": "东京",
+  "district": "神乐坂",
+  "lat": 35.704635,
+  "lng": 139.731923,
+  "cuisine": "teppanyaki",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "show",
+   "wagyu",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-19",
+  "review_due": "2026-11-17"
+ },
+ {
+  "rest_id": "RST-TYO-047",
+  "name_zh": "品川 拉面 椿",
+  "name_local": "品川 ラーメン 椿",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.628851,
+  "lng": 139.73701,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-21 采集（仅参考）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-10"
+ },
+ {
+  "rest_id": "RST-TYO-048",
+  "name_zh": "日本桥 拉面 穗",
+  "name_local": "日本橋 ラーメン 穂",
+  "city": "东京",
+  "district": "日本桥",
+  "lat": 35.684518,
+  "lng": 139.770959,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-28 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-28",
+  "review_due": "2026-10-26"
+ },
+ {
+  "rest_id": "RST-TYO-049",
+  "name_zh": "品川 烧肉 梅",
+  "name_local": "品川 焼肉 梅",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.629926,
+  "lng": 139.736731,
+  "cuisine": "yakiniku",
+  "price_band": "high",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "late_night",
+   "wagyu",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-24",
+  "review_due": "2026-11-22"
+ },
+ {
+  "rest_id": "RST-TYO-050",
+  "name_zh": "表参道 居酒屋 萤",
+  "name_local": "表参道 居酒屋 蛍",
+  "city": "东京",
+  "district": "表参道",
+  "lat": 35.667386,
+  "lng": 139.715487,
+  "cuisine": "izakaya",
+  "price_band": "budget",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
+ },
+ {
+  "rest_id": "RST-TYO-051",
+  "name_zh": "银座 意餐 宴",
+  "name_local": "銀座 イタリアン 宴",
+  "city": "东京",
+  "district": "银座",
+  "lat": 35.668554,
+  "lng": 139.763437,
+  "cuisine": "italian",
+  "price_band": "high",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "gluten_free"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 3,
+  "tags": [
+   "casual"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-07-25",
+  "review_due": "2026-10-23"
+ },
+ {
+  "rest_id": "RST-TYO-052",
+  "name_zh": "赤坂 割烹 铃",
+  "name_local": "赤坂 割烹 鈴",
+  "city": "东京",
+  "district": "赤坂",
+  "lat": 35.675157,
+  "lng": 139.733792,
+  "cuisine": "kappo",
+  "price_band": "luxury",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 7,
+  "tags": [
+   "counter",
+   "seasonal",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-15"
+ },
+ {
+  "rest_id": "RST-TYO-053",
+  "name_zh": "虎之门 中华 灯",
+  "name_local": "虎ノ門 中華 灯",
+  "city": "东京",
+  "district": "虎之门",
+  "lat": 35.668963,
+  "lng": 139.749458,
+  "cuisine": "chinese",
+  "price_band": "high",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-25 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-25",
+  "review_due": "2026-10-23"
+ },
+ {
+  "rest_id": "RST-TYO-054",
+  "name_zh": "台场 咖啡 翠",
+  "name_local": "台場 カフェ 翠",
+  "city": "东京",
+  "district": "台场",
+  "lat": 35.625157,
+  "lng": 139.777906,
+  "cuisine": "cafe",
+  "price_band": "budget",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "dessert",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-20）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-20",
+  "review_due": "2026-10-18"
+ },
+ {
+  "rest_id": "RST-TYO-055",
+  "name_zh": "品川 海鲜 縁",
+  "name_local": "品川 海鮮 縁",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.624578,
+  "lng": 139.740388,
+  "cuisine": "seafood",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "market",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-19 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-19",
+  "review_due": "2026-11-17"
+ },
+ {
+  "rest_id": "RST-TYO-056",
+  "name_zh": "虎之门 烧鸟 萩",
+  "name_local": "虎ノ門 焼鳥 萩",
+  "city": "东京",
+  "district": "虎之门",
+  "lat": 35.665976,
+  "lng": 139.751041,
+  "cuisine": "yakitori",
+  "price_band": "mid",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "counter",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-24 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-06-24",
+  "review_due": "2026-09-22"
+ },
+ {
+  "rest_id": "RST-TYO-057",
+  "name_zh": "目黑 居酒屋 萤",
+  "name_local": "目黒 居酒屋 蛍",
+  "city": "东京",
+  "district": "目黑",
+  "lat": 35.636874,
+  "lng": 139.713725,
+  "cuisine": "izakaya",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-16 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-16",
+  "review_due": "2026-11-14"
+ },
+ {
+  "rest_id": "RST-TYO-058",
+  "name_zh": "丸之内 烧鸟 汐",
+  "name_local": "丸の内 焼鳥 汐",
+  "city": "东京",
+  "district": "丸之内",
+  "lat": 35.683878,
+  "lng": 139.764427,
+  "cuisine": "yakitori",
+  "price_band": "mid",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "counter",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-04-25）",
+  "verified_status": "expired",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-04-25",
+  "review_due": "2026-07-24"
+ },
+ {
+  "rest_id": "RST-TYO-059",
+  "name_zh": "品川 法餐 萤",
+  "name_local": "品川 フレンチ 蛍",
+  "city": "东京",
+  "district": "品川",
+  "lat": 35.625037,
+  "lng": 139.74239,
+  "cuisine": "french",
+  "price_band": "luxury",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "michelin",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-07-13）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-07-13",
+  "review_due": "2026-10-11"
+ },
+ {
+  "rest_id": "RST-TYO-060",
+  "name_zh": "新宿 烧肉 匠",
+  "name_local": "新宿 焼肉 匠",
+  "city": "东京",
+  "district": "新宿",
+  "lat": 35.691963,
+  "lng": 139.7026,
+  "cuisine": "yakiniku",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": null,
+  "lead_time_days": 3,
+  "tags": [
+   "late_night",
+   "wagyu"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-06-20",
+  "review_due": "2026-09-18"
+ },
+ {
+  "rest_id": "RST-KYO-021",
+  "name_zh": "东山 割烹 樱",
+  "name_local": "東山 割烹 桜",
+  "city": "京都",
+  "district": "东山",
+  "lat": 34.995658,
+  "lng": 135.781429,
+  "cuisine": "kappo",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "seasonal",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-06-30",
+  "review_due": "2026-09-28"
+ },
+ {
+  "rest_id": "RST-KYO-022",
+  "name_zh": "乌丸 御番菜 樱",
+  "name_local": "烏丸 おばんざい 桜",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.005316,
+  "lng": 135.76399,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-25 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-06-25",
+  "review_due": "2026-09-23"
+ },
+ {
+  "rest_id": "RST-KYO-023",
+  "name_zh": "宇治 鮨 樱",
+  "name_local": "宇治 鮨 桜",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.891863,
+  "lng": 135.811154,
+  "cuisine": "sushi",
+  "price_band": "luxury",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": null,
+  "lead_time_days": 7,
+  "tags": [
+   "edomae",
+   "omakase"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
+ },
+ {
+  "rest_id": "RST-KYO-024",
+  "name_zh": "清水 荞麦 汐",
+  "name_local": "清水 蕎麦 汐",
+  "city": "京都",
+  "district": "清水",
+  "lat": 34.996921,
+  "lng": 135.781902,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-28",
+  "review_due": "2026-11-26"
+ },
+ {
+  "rest_id": "RST-KYO-025",
+  "name_zh": "宇治 京料理 匠",
+  "name_local": "宇治 京料理 匠",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.888482,
+  "lng": 135.807066,
+  "cuisine": "kyo_ryori",
+  "price_band": "mid",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "machiya",
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-07-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-07-28",
+  "review_due": "2026-10-26"
+ },
+ {
+  "rest_id": "RST-KYO-026",
+  "name_zh": "清水 怀石 澄",
+  "name_local": "清水 懐石 澄",
+  "city": "京都",
+  "district": "清水",
+  "lat": 34.995865,
+  "lng": 135.788495,
+  "cuisine": "kaiseki",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "private_room",
+   "seasonal"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-07-17）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-17",
+  "review_due": "2026-10-15"
+ },
+ {
+  "rest_id": "RST-KYO-027",
+  "name_zh": "二条 御番菜 铃",
+  "name_local": "二条 おばんざい 鈴",
+  "city": "京都",
+  "district": "二条",
+  "lat": 35.012607,
+  "lng": 135.746886,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-07-09",
+  "review_due": "2026-10-07"
+ },
+ {
+  "rest_id": "RST-KYO-028",
+  "name_zh": "乌丸 咖啡 縁",
+  "name_local": "烏丸 カフェ 縁",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.006711,
+  "lng": 135.76248,
+  "cuisine": "cafe",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "dessert",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-03-16 采集（仅参考）",
+  "verified_status": "expired",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-03-16",
+  "review_due": "2026-06-14"
+ },
+ {
+  "rest_id": "RST-KYO-029",
+  "name_zh": "伏见 御番菜 匠",
+  "name_local": "伏見 おばんざい 匠",
+  "city": "京都",
+  "district": "伏见",
+  "lat": 34.936192,
+  "lng": 135.765025,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-27）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-27",
+  "review_due": "2026-11-25"
+ },
+ {
+  "rest_id": "RST-KYO-030",
+  "name_zh": "乌丸 怀石 萤",
+  "name_local": "烏丸 懐石 蛍",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.008087,
+  "lng": 135.761422,
+  "cuisine": "kaiseki",
+  "price_band": "luxury",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 7,
+  "tags": [
+   "seasonal",
+   "view",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "expired",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-05-25",
+  "review_due": "2026-08-23"
+ },
+ {
+  "rest_id": "RST-KYO-031",
+  "name_zh": "宇治 精进 宴",
+  "name_local": "宇治 精進 宴",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.89144,
+  "lng": 135.805294,
+  "cuisine": "shojin",
+  "price_band": "high",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw",
+   "halal"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-11 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-11",
+  "review_due": "2026-11-09"
+ },
+ {
+  "rest_id": "RST-KYO-032",
+  "name_zh": "西阵 精进 縁",
+  "name_local": "西陣 精進 縁",
+  "city": "京都",
+  "district": "西阵",
+  "lat": 35.03566,
+  "lng": 135.74533,
+  "cuisine": "shojin",
+  "price_band": "mid",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "temple_style"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-23）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-23",
+  "review_due": "2026-10-21"
+ },
+ {
+  "rest_id": "RST-KYO-033",
+  "name_zh": "岚山 咖啡 鹤",
+  "name_local": "嵐山 カフェ 鶴",
+  "city": "京都",
+  "district": "岚山",
+  "lat": 35.014582,
+  "lng": 135.676158,
+  "cuisine": "cafe",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "dessert",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-09-04",
+  "review_due": "2026-12-03"
+ },
+ {
+  "rest_id": "RST-KYO-034",
+  "name_zh": "西阵 荞麦 鹤",
+  "name_local": "西陣 蕎麦 鶴",
+  "city": "京都",
+  "district": "西阵",
+  "lat": 35.03299,
+  "lng": 135.740671,
+  "cuisine": "soba",
+  "price_band": "budget",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "vegan"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-06-20",
+  "review_due": "2026-09-18"
+ },
+ {
+  "rest_id": "RST-KYO-035",
+  "name_zh": "乌丸 御番菜 灯",
+  "name_local": "烏丸 おばんざい 灯",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.001547,
+  "lng": 135.759721,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-04）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-18"
+ },
+ {
+  "rest_id": "RST-KYO-036",
+  "name_zh": "三条 御番菜 萤",
+  "name_local": "三条 おばんざい 蛍",
+  "city": "京都",
+  "district": "三条",
+  "lat": 35.010249,
+  "lng": 135.77264,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-10）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-10",
+  "review_due": "2026-11-08"
+ },
+ {
+  "rest_id": "RST-KYO-037",
+  "name_zh": "御所南 鮨 铃",
+  "name_local": "御所南 鮨 鈴",
+  "city": "京都",
+  "district": "御所南",
+  "lat": 35.017148,
+  "lng": 135.760622,
+  "cuisine": "sushi",
+  "price_band": "luxury",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "counter",
+   "omakase"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-14 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-14",
+  "review_due": "2026-10-12"
+ },
+ {
+  "rest_id": "RST-KYO-038",
+  "name_zh": "宇治 割烹 萤",
+  "name_local": "宇治 割烹 蛍",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.891009,
+  "lng": 135.809233,
+  "cuisine": "kappo",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "seasonal"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-27 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-06-27",
+  "review_due": "2026-09-25"
+ },
+ {
+  "rest_id": "RST-KYO-039",
+  "name_zh": "二条 天麸罗 樱",
+  "name_local": "二条 天ぷら 桜",
+  "city": "京都",
+  "district": "二条",
+  "lat": 35.016249,
+  "lng": 135.75222,
+  "cuisine": "tempura",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-15"
+ },
+ {
+  "rest_id": "RST-KYO-040",
+  "name_zh": "冈崎 鳗 翠",
+  "name_local": "岡崎 うなぎ 翠",
+  "city": "京都",
+  "district": "冈崎",
+  "lat": 35.016138,
+  "lng": 135.785945,
+  "cuisine": "unagi",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-11",
+  "review_due": "2026-10-09"
+ },
+ {
+  "rest_id": "RST-KYO-041",
+  "name_zh": "乌丸 拉面 朴",
+  "name_local": "烏丸 ラーメン 朴",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.005648,
+  "lng": 135.759365,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-06 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-07-06",
+  "review_due": "2026-10-04"
+ },
+ {
+  "rest_id": "RST-KYO-042",
+  "name_zh": "宇治 乌冬 宴",
+  "name_local": "宇治 うどん 宴",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.892497,
+  "lng": 135.805097,
+  "cuisine": "udon",
+  "price_band": "budget",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 0,
+  "tags": [
+   "quick"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-23）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-20"
+ },
+ {
+  "rest_id": "RST-KYO-043",
+  "name_zh": "宇治 豆腐 灯",
+  "name_local": "宇治 豆腐 灯",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.890319,
+  "lng": 135.80284,
+  "cuisine": "tofu",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-12）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-12",
+  "review_due": "2026-10-10"
+ },
+ {
+  "rest_id": "RST-KYO-044",
+  "name_zh": "宇治 鳗 灯",
+  "name_local": "宇治 うなぎ 灯",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.890599,
+  "lng": 135.804341,
+  "cuisine": "unagi",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-02",
+  "review_due": "2026-10-31"
+ },
+ {
+  "rest_id": "RST-KYO-045",
+  "name_zh": "三条 怀石 雅",
+  "name_local": "三条 懐石 雅",
+  "city": "京都",
+  "district": "三条",
+  "lat": 35.007597,
+  "lng": 135.771541,
+  "cuisine": "kaiseki",
+  "price_band": "luxury",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "seasonal",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-06-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-06-24",
+  "review_due": "2026-09-22"
+ },
+ {
+  "rest_id": "RST-KYO-046",
+  "name_zh": "伏见 拉面 和",
+  "name_local": "伏見 ラーメン 和",
+  "city": "京都",
+  "district": "伏见",
+  "lat": 34.934254,
+  "lng": 135.759067,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-25 采集（仅参考）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-20"
+ },
+ {
+  "rest_id": "RST-KYO-047",
+  "name_zh": "乌丸 京料理 梅",
+  "name_local": "烏丸 京料理 梅",
+  "city": "京都",
+  "district": "乌丸",
+  "lat": 35.004959,
+  "lng": 135.761641,
+  "cuisine": "kyo_ryori",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "machiya",
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-18 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-07-18",
+  "review_due": "2026-10-16"
+ },
+ {
+  "rest_id": "RST-KYO-048",
+  "name_zh": "京都站前 京料理 凛",
+  "name_local": "京都駅前 京料理 凛",
+  "city": "京都",
+  "district": "京都站前",
+  "lat": 34.983092,
+  "lng": 135.759085,
+  "cuisine": "kyo_ryori",
+  "price_band": "high",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "machiya",
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-03-25 采集（仅参考）",
+  "verified_status": "expired",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-03-25",
+  "review_due": "2026-06-23"
+ },
+ {
+  "rest_id": "RST-KYO-049",
+  "name_zh": "宇治 怀石 椿",
+  "name_local": "宇治 懐石 椿",
+  "city": "京都",
+  "district": "宇治",
+  "lat": 34.886604,
+  "lng": 135.80808,
+  "cuisine": "kaiseki",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 3,
+  "tags": [
+   "seasonal",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-09-05）",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-18"
+ },
+ {
+  "rest_id": "RST-KYO-050",
+  "name_zh": "伏见 御番菜 鹤",
+  "name_local": "伏見 おばんざい 鶴",
+  "city": "京都",
+  "district": "伏见",
+  "lat": 34.93432,
+  "lng": 135.761653,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": null,
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-06-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-06-21",
+  "review_due": "2026-09-19"
+ },
+ {
+  "rest_id": "RST-KYO-051",
+  "name_zh": "伏见 御番菜 翠",
+  "name_local": "伏見 おばんざい 翠",
+  "city": "京都",
+  "district": "伏见",
+  "lat": 34.935038,
+  "lng": 135.759248,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-31",
+  "review_due": "2026-10-29"
+ },
+ {
+  "rest_id": "RST-KYO-052",
+  "name_zh": "京都站前 京料理 梅",
+  "name_local": "京都駅前 京料理 梅",
+  "city": "京都",
+  "district": "京都站前",
+  "lat": 34.986084,
+  "lng": 135.759709,
+  "cuisine": "kyo_ryori",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "machiya",
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-02 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-02",
+  "review_due": "2026-09-30"
+ },
+ {
+  "rest_id": "RST-KYO-053",
+  "name_zh": "冈崎 御番菜 樱",
+  "name_local": "岡崎 おばんざい 桜",
+  "city": "京都",
+  "district": "冈崎",
+  "lat": 35.009515,
+  "lng": 135.784155,
+  "cuisine": "obanzai",
+  "price_band": "mid",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "home_style",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-23",
+  "review_due": "2026-11-21"
+ },
+ {
+  "rest_id": "RST-KYO-054",
+  "name_zh": "河原町 寿喜锅 凛",
+  "name_local": "河原町 すき焼き 凛",
+  "city": "京都",
+  "district": "河原町",
+  "lat": 35.006739,
+  "lng": 135.765483,
+  "cuisine": "sukiyaki",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "private_room",
+   "wagyu",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-05）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-05",
+  "review_due": "2026-10-03"
+ },
+ {
+  "rest_id": "RST-KYO-055",
+  "name_zh": "北山 烧肉 枫",
+  "name_local": "北山 焼肉 楓",
+  "city": "京都",
+  "district": "北山",
+  "lat": 35.053037,
+  "lng": 135.758166,
+  "cuisine": "yakiniku",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "wagyu",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-07-11）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-11",
+  "review_due": "2026-10-09"
+ },
+ {
+  "rest_id": "RST-KYO-056",
+  "name_zh": "祇园 拉面 翠",
+  "name_local": "祇園 ラーメン 翠",
+  "city": "京都",
+  "district": "祇园",
+  "lat": 35.003196,
+  "lng": 135.773194,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-07-23",
+  "review_due": "2026-10-21"
+ },
+ {
+  "rest_id": "RST-KYO-057",
+  "name_zh": "清水 精进 枫",
+  "name_local": "清水 精進 楓",
+  "city": "京都",
+  "district": "清水",
+  "lat": 34.998118,
+  "lng": 135.784192,
+  "cuisine": "shojin",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-06-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-06-24",
+  "review_due": "2026-09-22"
+ },
+ {
+  "rest_id": "RST-KYO-058",
+  "name_zh": "岚山 割烹 萤",
+  "name_local": "嵐山 割烹 蛍",
+  "city": "京都",
+  "district": "岚山",
+  "lat": 35.012324,
+  "lng": 135.681157,
+  "cuisine": "kappo",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "counter",
+   "seasonal"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-28 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-06-28",
+  "review_due": "2026-09-26"
+ },
+ {
+  "rest_id": "RST-KYO-059",
+  "name_zh": "清水 意餐 匠",
+  "name_local": "清水 イタリアン 匠",
+  "city": "京都",
+  "district": "清水",
+  "lat": 34.993971,
+  "lng": 135.781294,
+  "cuisine": "italian",
+  "price_band": "mid",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "gluten_free"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-06-26）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-06-26",
+  "review_due": "2026-09-24"
+ },
+ {
+  "rest_id": "RST-KYO-060",
+  "name_zh": "河原町 精进 葵",
+  "name_local": "河原町 精進 葵",
+  "city": "京都",
+  "district": "河原町",
+  "lat": 35.000805,
+  "lng": 135.771701,
+  "cuisine": "shojin",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "temple_style",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-039 2026–27 年度合同/报价单",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-15"
+ },
+ {
+  "rest_id": "RST-HKN-021",
+  "name_zh": "塔之泽 怀石 灯",
+  "name_local": "塔ノ沢 懐石 灯",
+  "city": "箱根",
+  "district": "塔之泽",
+  "lat": 35.239788,
+  "lng": 139.096588,
+  "cuisine": "kaiseki",
+  "price_band": "luxury",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "private_room",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-06-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-06-30",
+  "review_due": "2026-09-28"
+ },
+ {
+  "rest_id": "RST-HKN-022",
+  "name_zh": "仙石原 怀石 凛",
+  "name_local": "仙石原 懐石 凛",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.26994,
+  "lng": 139.010485,
+  "cuisine": "kaiseki",
+  "price_band": "high",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "private_room",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-15"
+ },
+ {
+  "rest_id": "RST-HKN-023",
+  "name_zh": "宫之下 拉面 萤",
+  "name_local": "宮ノ下 ラーメン 蛍",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.24725,
+  "lng": 139.054341,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-07-10 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-10",
+  "review_due": "2026-10-08"
+ },
+ {
+  "rest_id": "RST-HKN-024",
+  "name_zh": "仙石原 荞麦 翠",
+  "name_local": "仙石原 蕎麦 翠",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.270818,
+  "lng": 139.010225,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family",
+   "river_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-06-21",
+  "review_due": "2026-09-19"
+ },
+ {
+  "rest_id": "RST-HKN-025",
+  "name_zh": "汤本 乌冬 汐",
+  "name_local": "湯本 うどん 汐",
+  "city": "箱根",
+  "district": "汤本",
+  "lat": 35.231779,
+  "lng": 139.100783,
+  "cuisine": "udon",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-07-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-25",
+  "review_due": "2026-10-23"
+ },
+ {
+  "rest_id": "RST-HKN-026",
+  "name_zh": "芦之湖 豆腐 凛",
+  "name_local": "芦ノ湖 豆腐 凛",
+  "city": "箱根",
+  "district": "芦之湖",
+  "lat": 35.208587,
+  "lng": 139.018299,
+  "cuisine": "tofu",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "expired",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-04-28",
+  "review_due": "2026-07-27"
+ },
+ {
+  "rest_id": "RST-HKN-027",
+  "name_zh": "小涌谷 豆腐 穗",
+  "name_local": "小涌谷 豆腐 穂",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.242287,
+  "lng": 139.051968,
+  "cuisine": "tofu",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-041 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-09-02",
+  "review_due": "2026-12-01"
+ },
+ {
+  "rest_id": "RST-HKN-028",
+  "name_zh": "宫之下 咖啡 铃",
+  "name_local": "宮ノ下 カフェ 鈴",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.242591,
+  "lng": 139.052352,
+  "cuisine": "cafe",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "dessert",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-11）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-11",
+  "review_due": "2026-11-09"
+ },
+ {
+  "rest_id": "RST-HKN-029",
+  "name_zh": "小涌谷 法餐 萤",
+  "name_local": "小涌谷 フレンチ 蛍",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.238345,
+  "lng": 139.052346,
+  "cuisine": "french",
+  "price_band": "high",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "gluten_free"
+  ],
+  "child_friendly": false,
+  "lead_time_days": 3,
+  "tags": [
+   "michelin",
+   "view",
+   "lake_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-07-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-15",
+  "review_due": "2026-10-13"
+ },
+ {
+  "rest_id": "RST-HKN-030",
+  "name_zh": "小涌谷 拉面 翠",
+  "name_local": "小涌谷 ラーメン 翠",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.23977,
+  "lng": 139.050179,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": null,
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-038 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-06-19",
+  "review_due": "2026-09-17"
+ },
+ {
+  "rest_id": "RST-HKN-031",
+  "name_zh": "仙石原 荞麦 澄",
+  "name_local": "仙石原 蕎麦 澄",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.265776,
+  "lng": 139.00404,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 0,
+  "tags": [
+   "local"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-07-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-07-22",
+  "review_due": "2026-10-20"
+ },
+ {
+  "rest_id": "RST-HKN-032",
+  "name_zh": "小涌谷 豆腐 萤",
+  "name_local": "小涌谷 豆腐 蛍",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.240241,
+  "lng": 139.050516,
+  "cuisine": "tofu",
+  "price_band": "high",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-06-29",
+  "review_due": "2026-09-27"
+ },
+ {
+  "rest_id": "RST-HKN-033",
+  "name_zh": "强罗 意餐 樱",
+  "name_local": "強羅 イタリアン 桜",
+  "city": "箱根",
+  "district": "强罗",
+  "lat": 35.244723,
+  "lng": 139.046082,
+  "cuisine": "italian",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "gluten_free"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "casual",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-15",
+  "review_due": "2026-11-13"
+ },
+ {
+  "rest_id": "RST-HKN-034",
+  "name_zh": "塔之泽 鳗 澄",
+  "name_local": "塔ノ沢 うなぎ 澄",
+  "city": "箱根",
+  "district": "塔之泽",
+  "lat": 35.233742,
+  "lng": 139.097206,
+  "cuisine": "unagi",
+  "price_band": "high",
+  "closed_days": [
+   0,
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-041 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-10",
+  "review_due": "2026-10-08"
+ },
+ {
+  "rest_id": "RST-HKN-035",
+  "name_zh": "宫之下 鳗 澄",
+  "name_local": "宮ノ下 うなぎ 澄",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.240577,
+  "lng": 139.052446,
+  "cuisine": "unagi",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-22 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-06-22",
+  "review_due": "2026-09-20"
+ },
+ {
+  "rest_id": "RST-HKN-036",
+  "name_zh": "芦之湖 居酒屋 和",
+  "name_local": "芦ノ湖 居酒屋 和",
+  "city": "箱根",
+  "district": "芦之湖",
+  "lat": 35.209468,
+  "lng": 139.019146,
+  "cuisine": "izakaya",
+  "price_band": "mid",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-07-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-15",
+  "review_due": "2026-10-13"
+ },
+ {
+  "rest_id": "RST-HKN-037",
+  "name_zh": "小涌谷 意餐 汐",
+  "name_local": "小涌谷 イタリアン 汐",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.240149,
+  "lng": 139.047665,
+  "cuisine": "italian",
+  "price_band": "high",
+  "closed_days": [
+   1,
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "gluten_free"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "casual",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-30",
+  "review_due": "2026-11-28"
+ },
+ {
+  "rest_id": "RST-HKN-038",
+  "name_zh": "汤本 鳗 縁",
+  "name_local": "湯本 うなぎ 縁",
+  "city": "箱根",
+  "district": "汤本",
+  "lat": 35.228602,
+  "lng": 139.105405,
+  "cuisine": "unagi",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-06-26）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-06-26",
+  "review_due": "2026-09-24"
+ },
+ {
+  "rest_id": "RST-HKN-039",
+  "name_zh": "强罗 怀石 吟",
+  "name_local": "強羅 懐石 吟",
+  "city": "箱根",
+  "district": "强罗",
+  "lat": 35.246537,
+  "lng": 139.04655,
+  "cuisine": "kaiseki",
+  "price_band": "luxury",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "private_room",
+   "view",
+   "river_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
+ },
+ {
+  "rest_id": "RST-HKN-040",
+  "name_zh": "小涌谷 豆腐 澄",
+  "name_local": "小涌谷 豆腐 澄",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.241611,
+  "lng": 139.05223,
+  "cuisine": "tofu",
+  "price_band": "high",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "family",
+   "river_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-17）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-17",
+  "review_due": "2026-11-15"
+ },
+ {
+  "rest_id": "RST-HKN-041",
+  "name_zh": "小涌谷 涮涮锅 凛",
+  "name_local": "小涌谷 しゃぶしゃぶ 凛",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.243006,
+  "lng": 139.050992,
+  "cuisine": "shabu",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "private_room",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-06-24 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-06-24",
+  "review_due": "2026-09-22"
+ },
+ {
+  "rest_id": "RST-HKN-042",
+  "name_zh": "强罗 咖啡 灯",
+  "name_local": "強羅 カフェ 灯",
+  "city": "箱根",
+  "district": "强罗",
+  "lat": 35.246516,
+  "lng": 139.04542,
+  "cuisine": "cafe",
+  "price_band": "budget",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "dessert",
+   "family",
+   "river_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-07-20",
+  "review_due": "2026-10-18"
+ },
+ {
+  "rest_id": "RST-HKN-043",
+  "name_zh": "汤本 荞麦 樱",
+  "name_local": "湯本 蕎麦 桜",
+  "city": "箱根",
+  "district": "汤本",
+  "lat": 35.228793,
+  "lng": 139.101149,
+  "cuisine": "soba",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "vegan"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-08-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-01",
+  "review_due": "2026-10-30"
+ },
+ {
+  "rest_id": "RST-HKN-044",
+  "name_zh": "汤本 拉面 萩",
+  "name_local": "湯本 ラーメン 萩",
+  "city": "箱根",
+  "district": "汤本",
+  "lat": 35.233866,
+  "lng": 139.104903,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-07-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-07-14",
+  "review_due": "2026-10-12"
+ },
+ {
+  "rest_id": "RST-HKN-045",
+  "name_zh": "宫之下 荞麦 縁",
+  "name_local": "宮ノ下 蕎麦 縁",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.242589,
+  "lng": 139.054935,
+  "cuisine": "soba",
+  "price_band": "budget",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-08-06）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-06",
+  "review_due": "2026-11-04"
+ },
+ {
+  "rest_id": "RST-HKN-046",
+  "name_zh": "仙石原 乌冬 縁",
+  "name_local": "仙石原 うどん 縁",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.26842,
+  "lng": 139.010276,
+  "cuisine": "udon",
+  "price_band": "mid",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-07-31）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-31",
+  "review_due": "2026-10-29"
+ },
+ {
+  "rest_id": "RST-HKN-047",
+  "name_zh": "宫之下 海鲜 葵",
+  "name_local": "宮ノ下 海鮮 葵",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.245351,
+  "lng": 139.05834,
+  "cuisine": "seafood",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "market",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-07-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-07-22",
+  "review_due": "2026-10-20"
+ },
+ {
+  "rest_id": "RST-HKN-048",
+  "name_zh": "元箱根 怀石 雅",
+  "name_local": "元箱根 懐石 雅",
+  "city": "箱根",
+  "district": "元箱根",
+  "lat": 35.20424,
+  "lng": 139.026322,
+  "cuisine": "kaiseki",
+  "price_band": "luxury",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [],
+  "child_friendly": false,
+  "lead_time_days": 7,
+  "tags": [
+   "private_room",
+   "view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-06-22",
+  "review_due": "2026-09-20"
+ },
+ {
+  "rest_id": "RST-HKN-049",
+  "name_zh": "元箱根 海鲜 岚",
+  "name_local": "元箱根 海鮮 嵐",
+  "city": "箱根",
+  "district": "元箱根",
+  "lat": 35.202513,
+  "lng": 139.024625,
+  "cuisine": "seafood",
+  "price_band": "budget",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "market",
+   "family",
+   "lake_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-05-27）",
+  "verified_status": "expired",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-05-27",
+  "review_due": "2026-08-25"
+ },
+ {
+  "rest_id": "RST-HKN-050",
+  "name_zh": "元箱根 豆腐 萩",
+  "name_local": "元箱根 豆腐 萩",
+  "city": "箱根",
+  "district": "元箱根",
+  "lat": 35.206533,
+  "lng": 139.026856,
+  "cuisine": "tofu",
+  "price_band": "high",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-10 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-10",
+  "review_due": "2026-11-08"
+ },
+ {
+  "rest_id": "RST-HKN-051",
+  "name_zh": "元箱根 荞麦 灯",
+  "name_local": "元箱根 蕎麦 灯",
+  "city": "箱根",
+  "district": "元箱根",
+  "lat": 35.20282,
+  "lng": 139.029262,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-08-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-28",
+  "review_due": "2026-11-26"
+ },
+ {
+  "rest_id": "RST-HKN-052",
+  "name_zh": "小涌谷 豆腐 凛",
+  "name_local": "小涌谷 豆腐 凛",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.240278,
+  "lng": 139.046355,
+  "cuisine": "tofu",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "garden",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-010 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-07-19",
+  "review_due": "2026-10-17"
+ },
+ {
+  "rest_id": "RST-HKN-053",
+  "name_zh": "仙石原 荞麦 椿",
+  "name_local": "仙石原 蕎麦 椿",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.267596,
+  "lng": 139.008153,
+  "cuisine": "soba",
+  "price_band": "mid",
+  "closed_days": [
+   0
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian",
+   "vegan"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family",
+   "lake_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "historical_order",
+  "source_ref": "历史订单回填（2026-09-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-01",
+  "review_due": "2026-11-30"
+ },
+ {
+  "rest_id": "RST-HKN-054",
+  "name_zh": "宫之下 洋食 穗",
+  "name_local": "宮ノ下 洋食 穂",
+  "city": "箱根",
+  "district": "宫之下",
+  "lat": 35.240784,
+  "lng": 139.056356,
+  "cuisine": "western",
+  "price_band": "mid",
+  "closed_days": [
+   2
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-07-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-07-22",
+  "review_due": "2026-10-20"
+ },
+ {
+  "rest_id": "RST-HKN-055",
+  "name_zh": "塔之泽 荞麦 樱",
+  "name_local": "塔ノ沢 蕎麦 桜",
+  "city": "箱根",
+  "district": "塔之泽",
+  "lat": 35.239438,
+  "lng": 139.090932,
+  "cuisine": "soba",
+  "price_band": "budget",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "local",
+   "family",
+   "onsen_town"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-29",
+  "review_due": "2026-11-27"
+ },
+ {
+  "rest_id": "RST-HKN-056",
+  "name_zh": "塔之泽 洋食 椿",
+  "name_local": "塔ノ沢 洋食 椿",
+  "city": "箱根",
+  "district": "塔之泽",
+  "lat": 35.233991,
+  "lng": 139.094903,
+  "cuisine": "western",
+  "price_band": "mid",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "heritage",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-07-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-07-01",
+  "review_due": "2026-09-29"
+ },
+ {
+  "rest_id": "RST-HKN-057",
+  "name_zh": "塔之泽 涮涮锅 鹤",
+  "name_local": "塔ノ沢 しゃぶしゃぶ 鶴",
+  "city": "箱根",
+  "district": "塔之泽",
+  "lat": 35.239159,
+  "lng": 139.094194,
+  "cuisine": "shabu",
+  "price_band": "mid",
+  "closed_days": [
+   3
+  ],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "private_room",
+   "family",
+   "onsen_town"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-24",
+  "review_due": "2026-11-22"
+ },
+ {
+  "rest_id": "RST-HKN-058",
+  "name_zh": "强罗 拉面 舟",
+  "name_local": "強羅 ラーメン 舟",
+  "city": "箱根",
+  "district": "强罗",
+  "lat": 35.245579,
+  "lng": 139.045524,
+  "cuisine": "ramen",
+  "price_band": "budget",
+  "closed_days": [
+   1
+  ],
+  "open_from": "11:00:00",
+  "open_to": "23:00:00",
+  "dietary_support": [
+   "no_raw",
+   "no_pork"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 0,
+  "tags": [
+   "late_night",
+   "quick",
+   "family"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-040 2026–27 年度合同/报价单",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-07-11",
+  "review_due": "2026-10-09"
+ },
+ {
+  "rest_id": "RST-HKN-059",
+  "name_zh": "仙石原 乌冬 铃",
+  "name_local": "仙石原 うどん 鈴",
+  "city": "箱根",
+  "district": "仙石原",
+  "lat": 35.265738,
+  "lng": 139.007873,
+  "cuisine": "udon",
+  "price_band": "mid",
+  "closed_days": null,
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "no_raw",
+   "vegetarian"
+  ],
+  "child_friendly": null,
+  "lead_time_days": 0,
+  "tags": [
+   "quick",
+   "onsen_town"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "supplier_contract",
+  "source_ref": "SUP-008 2026–27 年度合同/报价单",
+  "verified_status": "pending",
+  "verified_by": null,
+  "verified_at": null,
+  "review_due": "2026-09-10"
+ },
+ {
+  "rest_id": "RST-HKN-060",
+  "name_zh": "小涌谷 豆腐 岚",
+  "name_local": "小涌谷 豆腐 嵐",
+  "city": "箱根",
+  "district": "小涌谷",
+  "lat": 35.240142,
+  "lng": 139.051251,
+  "cuisine": "tofu",
+  "price_band": "high",
+  "closed_days": [],
+  "open_from": "11:30:00",
+  "open_to": "22:00:00",
+  "dietary_support": [
+   "vegetarian",
+   "vegan",
+   "no_raw"
+  ],
+  "child_friendly": true,
+  "lead_time_days": 3,
+  "tags": [
+   "garden",
+   "family",
+   "river_view"
+  ],
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "ota_reference",
+  "source_ref": "OTA 公开页面，2026-08-28 采集（仅参考）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-28",
+  "review_due": "2026-11-26"
  }
 ]

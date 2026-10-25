@@ -10,6 +10,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app.api.v1 import router as v1_router
 from app.core.db import get_sessionmaker
+from app.core.demo_session import DemoSessionMiddleware
 from app.core.errors import install_error_handlers
 from app.services.tasks import recover_orphans
 
@@ -31,6 +32,7 @@ async def lifespan(_: FastAPI):
 app = FastAPI(title="行策 · 高端旅行智能方案生成平台（M0）", version="0.1.0", lifespan=lifespan)
 install_error_handlers(app)
 app.include_router(v1_router)
+app.add_middleware(DemoSessionMiddleware)
 
 
 @app.get("/healthz")

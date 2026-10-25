@@ -28,6 +28,10 @@ ERROR_STATUS: dict[str, int] = {
     "CANDIDATES_TOO_FEW": 409,     # 硬过滤后候选不足，先返回放宽建议
     "LLM_FAILED": 502,
     "LLM_INVALID_OUTPUT": 502,
+    "LLM_BUDGET_EXCEEDED": 429,
+    "LLM_RATE_LIMITED": 429,
+    "LLM_BUSY": 429,
+    "LLM_INPUT_TOO_LARGE": 400,
     "ORPHANED": 500,
     "INTERNAL": 500,
 }

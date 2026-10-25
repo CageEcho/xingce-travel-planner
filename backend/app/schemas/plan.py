@@ -104,6 +104,23 @@ class Provenance(BaseModel):
     matched_slots: list[str] = []
     satisfied_constraints: list[str] = []
     unknown_constraints: list[str] = []
+    source_type: str | None = None      # 来源标注：supplier_contract|official_site|advisor_visit|ota_reference|historical_order
+    verified_status: str | None = None  # verified|pending
+    verified_at: str | None = None
+    review_due: str | None = None
+
+
+class Recommendation(BaseModel):
+    """产品推荐（确定性规则，不经过模型）：方案用到的景点对应的门票/预约产品，以及可替换的主题路线。"""
+    kind: Literal["ticket", "route"]
+    ref_id: str
+    name_zh: str
+    city: str
+    day_index: int | None = None
+    reason: str
+    reservation_required: bool = False
+    lead_time_days: int = 0
+    notes: str | None = None
 
 
 class RenderedItem(BaseModel):
@@ -140,6 +157,7 @@ class RenderedPlan(BaseModel):
     days: list[RenderedDay]
     assumptions: list[str] = []
     render_errors: list["RenderError"] = []
+    recommendations: list[Recommendation] = []
 
 
 class RenderError(BaseModel):

@@ -155,6 +155,11 @@ def render_plan(db: Session, plan: ItineraryPlan, pool: CandidatePool, ctx: Trip
                 vio += _collect(C.h4_vehicle(vf, ctx, d.day_index, i),
                                 C.h8_availability(rate, the_date, the_date, rid, d.day_index, i),
                                 C.h11_price_source(rate, rid, now, d.day_index, i))
+            # H12 数据治理：待校验 → UNKNOWN；同时把来源标注写进溯源浮层
+            vio += _collect(C.h12_verified(row.verified_status, rid, row.review_due, d.day_index, i))
+            prov.source_type, prov.verified_status = row.source_type, row.verified_status
+            prov.verified_at = row.verified_at.isoformat() if row.verified_at else None
+            prov.review_due = row.review_due.isoformat() if row.review_due else None
             if rate:
                 prov.price_source, prov.rate_id = rate.confidence, rate.rate_id
             prov.satisfied_constraints = _satisfied(item.type, vio)
@@ -242,8 +247,8 @@ def _consistency(item_type: str, row, snapshot: dict | None) -> str | None:
 
 
 def _satisfied(item_type: str, vio: list[Violation]) -> list[str]:
-    checked = {"hotel": ["H1", "H8", "H11"], "restaurant": ["H2", "H3", "H8", "H11"],
-               "poi": ["H3", "H8", "H11"], "vehicle": ["H4", "H8", "H11"]}[item_type]
+    checked = {"hotel": ["H1", "H8", "H11", "H12"], "restaurant": ["H2", "H3", "H8", "H11", "H12"],
+               "poi": ["H3", "H8", "H11", "H12"], "vehicle": ["H4", "H8", "H11", "H12"]}[item_type]
     bad = {v.code for v in vio}
     return [c for c in checked if c not in bad]
 

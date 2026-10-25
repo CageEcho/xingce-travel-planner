@@ -167,13 +167,16 @@ def run_generation(task_id: str, mode: str | None = None) -> None:
             tiers = slots.get("hotel_tier") or ["5star", "luxury", "ryokan"]
             if isinstance(tiers, str):
                 tiers = [tiers]
-            pool = build_pool(db, cities, start, start + timedelta(days=days - 1), ctx, tiers)
+            interests = slots.get("interests")
+            pool = build_pool(db, cities, start, start + timedelta(days=days - 1), ctx, tiers,
+                              interests=interests if isinstance(interests, list) else ([interests] if interests else []))
             demo_relaxed_cities = expand_demo_hotel_coverage(
                 db, pool, cities, start, start + timedelta(days=days - 1), ctx, tiers,
             )
             write_trace(db, step="search", plan_id=task.plan_id, conv_id=card.conv_id,
                         payload={"funnels": pool.funnels, "hotels": len({h.hotel_id for h in pool.hotels}),
                                  "restaurants": len(pool.restaurants), "pois": len(pool.pois), "vehicles": len(pool.vehicles),
+                                 "routes": len(pool.routes), "similar_cases": len(pool.references),
                                  "requested_tiers": tiers, "demo_relaxed_cities": demo_relaxed_cities,
                                  "relaxation_hints": {c: [h.model_dump() for h in hs] for c, hs in pool.hotel_hints.items()}})
             missing_hotel_cities = [city for city in cities if not any(hotel.city == city for hotel in pool.hotels)]

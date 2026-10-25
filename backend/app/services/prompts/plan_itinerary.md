@@ -15,6 +15,7 @@
 10. 车辆座位与行李容量都要够。
 11. 每个条目给出 `reason_slots`（命中的需求槽位名，如 "interests"、"children"）与一句话 `reason_note`。
 12. 无法满足某项需求时，写入 `assumptions` 说明，**不要用不合适的资源凑数**。
+13. `<candidates>` 里的 `reference_routes`（顾问整理的主题路线）和 `similar_cases`（脱敏历史方案及复盘）只作参考：可以借鉴路线的景点顺序和历史方案的经验教训，但每个条目仍必须引用 `pois` / `restaurants` / `hotels` / `vehicles` 里的 ID，不得引用 route_id 或 plan_id。
 
 ## 回退反馈
 `<constraints>` 里若列出了「上一轮违规」，那些 resource_id 在对应日期**不得再次使用**，请更换资源或调整日期。

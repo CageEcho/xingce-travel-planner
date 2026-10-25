@@ -27,11 +27,13 @@ from pathlib import Path
 from typing import Any, TypeVar
 
 import anthropic
+import httpx
 from pydantic import BaseModel, ValidationError
 
 from app.core.config import settings
 from app.core.errors import AppError
 from app.core.privacy import redact_pii
+from app.core.token_budget import model_slot, output_limit, reserve, settle
 
 log = logging.getLogger("app.llm")
 
@@ -73,7 +75,8 @@ def get_client() -> anthropic.Anthropic:
     global _client
     if _client is None:
         timeout = float(settings.llm_call_timeout_sec)
-        kwargs: dict[str, Any] = {"max_retries": 2, "timeout": timeout}
+        # 所有重试必须先预留额度；关闭 SDK 隐式重试，避免绕过计量。
+        kwargs: dict[str, Any] = {"max_retries": 0 if settings.llm_budget_enabled else 2, "timeout": timeout}
         verify = _model_ssl_context()
         if verify is not None:
             kwargs["http_client"] = anthropic.DefaultHttpxClient(verify=verify, trust_env=True, timeout=timeout)
@@ -139,9 +142,11 @@ def parse_structured(*, system: str, user: str, output_format: type[T], max_toke
                      effort: str | None = None) -> LLMResult:
     """单次结构化输出调用（提供方无关）。解析失败重试 1 次。"""
     system, user = _prepare_model_input(system, user)
-    if settings.llm_provider == "deepseek":
-        return _parse_deepseek(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
-    return _parse_anthropic(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
+    max_tokens = output_limit(output_format, max_tokens)
+    with model_slot():
+        if settings.llm_provider == "deepseek":
+            return _parse_deepseek(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
+        return _parse_anthropic(system=system, user=user, output_format=output_format, max_tokens=max_tokens, effort=effort)
 
 
 def _prepare_model_input(system: str, user: str) -> tuple[str, str]:
@@ -168,10 +173,13 @@ def _parse_anthropic(*, system: str, user: str, output_format: type[T], max_toke
     t0 = time.perf_counter()
     last_err: Exception | None = None
     for attempt in range(2):
+        reservation = reserve(system, user, output_format, max_tokens)
         try:
             resp = client.messages.parse(**kwargs)
         except anthropic.AnthropicError as e:
             raise _map_sdk_error(e) from e
+
+        settle(reservation, resp)
 
         if resp.stop_reason == "refusal":
             raise AppError("LLM_FAILED", "模型拒绝了本次请求，请调整输入后重试")
@@ -227,17 +235,28 @@ def unwrap_tool_input(data: Any, output_format: type[BaseModel]) -> Any:
     return cur if isinstance(cur, dict) and (required & set(cur.keys())) else data
 
 
+class _MalformedToolJSON(Exception):
+    """SDK 流式累积器解析工具参数失败（如尾逗号）；带上已攒下的原始参数文本，交给宽容解析补救。"""
+
+    def __init__(self, raw_json: str):
+        super().__init__("malformed tool input JSON")
+        self.raw_json = raw_json
+
+
 def _stream_with_raw_json(client: anthropic.Anthropic, kwargs: dict[str, Any]) -> tuple[Any, str]:
     """流式调用：一边攒工具参数的原始 JSON 增量（input_json_delta.partial_json），一边拿最终消息。
     DeepSeek 端点偶尔把参数解析成 {}，原始增量是唯一能救回结果的来源。"""
     parts: list[str] = []
-    with client.messages.stream(**kwargs) as stream:
-        for event in stream:
-            if getattr(event, "type", None) == "content_block_delta":
-                delta = getattr(event, "delta", None)
-                if getattr(delta, "type", None) == "input_json_delta":
-                    parts.append(getattr(delta, "partial_json", "") or "")
-        resp = stream.get_final_message()
+    try:
+        with client.messages.stream(**kwargs) as stream:
+            for event in stream:
+                if getattr(event, "type", None) == "content_block_delta":
+                    delta = getattr(event, "delta", None)
+                    if getattr(delta, "type", None) == "input_json_delta":
+                        parts.append(getattr(delta, "partial_json", "") or "")
+            resp = stream.get_final_message()
+    except ValueError as e:      # anthropic SDK：Unable to parse tool parameter JSON from model
+        raise _MalformedToolJSON("".join(parts)) from e
     return resp, "".join(parts)
 
 
@@ -324,10 +343,35 @@ def _parse_deepseek(*, system: str, user: str, output_format: type[T], max_token
     content = user
     for attempt in range(max(1, settings.deepseek_max_attempts)):
         kwargs["messages"] = [{"role": "user", "content": content}]
+        reservation = reserve(system, content, output_format, max_tokens)
         try:
             resp, raw_json = _stream_with_raw_json(client, kwargs)
         except anthropic.AnthropicError as e:
             raise _map_sdk_error(e) from e
+        except httpx.TransportError as e:
+            # 流式传输中途断开（RemoteProtocolError 等）SDK 不会包装：同样的请求重试，用尽后按 LLM_FAILED 交给降级
+            settle(reservation, None)
+            log.warning("deepseek: stream transport error %s, attempt=%d", type(e).__name__, attempt + 1)
+            last_err = e
+            continue
+        except _MalformedToolJSON as e:
+            settle(reservation, None)        # 无账单信息：保守保留预留额度
+            recovered = _loads_lenient(e.raw_json)
+            log.warning("deepseek: malformed tool JSON, attempt=%d raw_json_len=%d recovered=%s",
+                        attempt + 1, len(e.raw_json), recovered is not None)
+            if recovered is not None:
+                try:
+                    parsed = output_format.model_validate(unwrap_tool_input(recovered, output_format))
+                    return LLMResult(parsed=parsed, input_tokens=0, output_tokens=0, cache_read_tokens=0,
+                                     latency_ms=int((time.perf_counter() - t0) * 1000), retried=True)
+                except ValidationError as ve:
+                    last_err = ve
+            else:
+                last_err = e
+            content = user + "\n\n<format_errors>上一次 emit_result 的参数不是合法 JSON（例如多余的逗号）。请输出严格合法的 JSON。</format_errors>"
+            continue
+
+        settle(reservation, resp)
 
         block = next((b for b in resp.content if getattr(b, "type", None) == "tool_use" and getattr(b, "name", None) == RESULT_TOOL), None)
         raw_input: Any = block.input if block is not None else None
@@ -366,4 +410,6 @@ def _parse_deepseek(*, system: str, user: str, output_format: type[T], max_token
         inp, out, cache = _usage(resp)
         return LLMResult(parsed=parsed, input_tokens=inp, output_tokens=out, cache_read_tokens=cache,
                          latency_ms=int((time.perf_counter() - t0) * 1000), retried=attempt > 0)
+    if isinstance(last_err, httpx.TransportError):
+        raise AppError("LLM_FAILED", f"模型服务连接中断（{type(last_err).__name__}），已重试仍失败") from last_err
     raise AppError("LLM_INVALID_OUTPUT", "模型输出不符合约定结构，已重试仍失败") from last_err

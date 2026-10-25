@@ -11,6 +11,7 @@ import type { PlanTask } from "../hooks/use-plan-task";
 import { ChecklistView } from "./checklist-view";
 import { CostView } from "./cost-view";
 import { DayCard } from "./day-card";
+import { RecommendationList } from "./recommendation-list";
 import { TaskProgress } from "./task-progress";
 import { TraceView } from "./trace-view";
 import { cn } from "@/lib/utils/cn";
@@ -80,6 +81,7 @@ export function PlanPanel({ task, card, hasPlanId, tab, onTab, onRegenerate, onF
               <>
                 {plan.structure.assumptions.length > 0 && <p className="mb-3 rounded border-l-[3px] border-warning bg-warning-soft px-3 py-2 text-xs"><b>编排假设：</b>{plan.structure.assumptions.join("；")}</p>}
                 {plan.structure.days.map((d) => <DayCard key={d.day_index} day={d} blocking={plan.violations.filter((v) => v.blocking && v.day_index === d.day_index)} />)}
+                <RecommendationList items={plan.structure.recommendations ?? []} />
                 <p className="text-[11px] text-muted mt-2">{plan.synthetic_notice}</p>
               </>
             )}

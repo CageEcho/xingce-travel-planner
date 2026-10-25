@@ -1,0 +1,15 @@
+id: extract_wheelchair_30
+family: slot_extraction
+input: 我和太太带我父亲，三个大人，父亲坐轮椅，12 月 20 号去箱根泡温泉 3 天，全家不吃猪肉。
+slots: {}
+generate: false
+expect:
+  slots:
+    adults: 3
+    children: 0
+    duration_days: 3
+    destination_cities: [箱根]
+    dietary: [no_pork]
+    accessibility: wheelchair
+  must_have_followup_slots: [budget_basis]
+note: 轮椅 → accessibility=wheelchair；不吃猪肉 → no_pork；预算缺失须追问

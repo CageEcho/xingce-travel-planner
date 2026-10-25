@@ -1,0 +1,22 @@
+id: governance_pending_22
+family: knowledge_coverage
+input: 两位年轻人京都 5 天，住精品或四星，预算有限，喜欢美食和咖啡。
+slots:
+  destination_cities: [京都]
+  date_start: '2026-10-20'
+  duration_days: 5
+  adults: 2
+  children: 0
+  budget_amount: 30000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [boutique, 4star]
+  dietary: [none]
+  accessibility: none
+  interests: [美食, 购物]
+generate: true
+expect:
+  max_blocking_violations: 0
+  interest_tags_any: [food, market, shopping, retro]
+  pending_resources_flagged: true
+note: 选到「待校验」资源时必须以 H12 进入待核实清单；复核过期资源不得出现

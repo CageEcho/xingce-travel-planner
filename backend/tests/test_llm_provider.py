@@ -180,3 +180,48 @@ def test_loads_lenient_repairs_truncation_and_trailing_commas():
     assert llm._loads_lenient('{"a": [1, 2,], "b": {"c": 1,},}') == {"a": [1, 2], "b": {"c": 1}}
     assert llm._loads_lenient('{"days": [{"x": 1}, {"y": "abc') == {"days": [{"x": 1}, {"y": "abc"}]}
     assert llm._loads_lenient("not json") is None
+
+
+class MalformedStream(FakeStream):
+    """模拟 SDK 流式累积器在 content_block_stop 时解析工具参数失败（真实跑测遇到的尾逗号）。"""
+    def __iter__(self):
+        yield SimpleNamespace(type="content_block_delta", delta=SimpleNamespace(type="input_json_delta", partial_json=self.raw_json))
+        raise ValueError("Unable to parse tool parameter JSON from model. Error: trailing comma")
+
+
+def test_deepseek_recovers_trailing_comma_tool_json(deepseek):
+    raw = '{"slots": {"adults": {"value": 2, "source": "client_verbatim", "confidence": 0.9},}, "followups": [], "notes": ""}'
+    fake = deepseek([MalformedStream(None, raw)])
+    res = llm.parse_structured(system="s", user="u", output_format=SlotExtraction, max_tokens=500)
+    assert res.parsed.slots.adults.value == 2 and res.retried
+    assert len(fake.calls) == 1                     # 宽容解析直接救回，不重复请求
+
+
+def test_deepseek_unrecoverable_tool_json_retries_with_feedback(deepseek, monkeypatch):
+    monkeypatch.setattr(settings, "deepseek_max_attempts", 2)
+    fake = deepseek([MalformedStream(None, '{"slots": {"adults": '), resp(tool_use(GOOD))])
+    res = llm.parse_structured(system="s", user="u", output_format=SlotExtraction, max_tokens=500)
+    assert res.parsed.slots.adults.value == 2
+    assert "不是合法 JSON" in fake.calls[1]["messages"][0]["content"]
+
+
+class DroppedStream(FakeStream):
+    """模拟流式传输中途断开（真实跑测遇到的 httpx.RemoteProtocolError）。"""
+    def __iter__(self):
+        import httpx
+        raise httpx.RemoteProtocolError("peer closed connection without sending complete message body")
+        yield  # pragma: no cover
+
+
+def test_deepseek_transport_error_retries_then_succeeds(deepseek, monkeypatch):
+    monkeypatch.setattr(settings, "deepseek_max_attempts", 2)
+    deepseek([DroppedStream(None), resp(tool_use(GOOD))])
+    assert llm.parse_structured(system="s", user="u", output_format=SlotExtraction, max_tokens=500).parsed.slots.adults.value == 2
+
+
+def test_deepseek_transport_error_exhausted_is_llm_failed(deepseek, monkeypatch):
+    monkeypatch.setattr(settings, "deepseek_max_attempts", 2)
+    deepseek([DroppedStream(None), DroppedStream(None)])
+    with pytest.raises(AppError) as e:
+        llm.parse_structured(system="s", user="u", output_format=SlotExtraction, max_tokens=500)
+    assert e.value.code == "LLM_FAILED"          # LLM_FAILED 才会触发规则编排降级

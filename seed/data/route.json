@@ -1,0 +1,1325 @@
+[
+ {
+  "route_id": "RTE-TYO-01",
+  "name_zh": "东京·亲子博物馆一日线（上野起）",
+  "city": "东京",
+  "theme": "亲子博物馆",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-TYO-004",
+   "POI-TYO-020",
+   "POI-TYO-027",
+   "POI-TYO-022"
+  ],
+  "total_minutes": 466,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "kids",
+   "family"
+  ],
+  "tags": [
+   "family",
+   "kids"
+  ],
+  "highlights": "上野动物园→国立科学博物馆→和纸体验工房（浅草）→东京晴空塔",
+  "notes": "周一、周二有景点休息，排期时避开；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-15",
+  "review_due": "2027-02-11"
+ },
+ {
+  "route_id": "RTE-TYO-02",
+  "name_zh": "东京·亲子博物馆一日线（丰洲起）",
+  "city": "东京",
+  "theme": "亲子博物馆",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-TYO-009",
+   "POI-TYO-013",
+   "POI-TYO-004"
+  ],
+  "total_minutes": 389,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "kids",
+   "family"
+  ],
+  "tags": [
+   "family",
+   "kids"
+  ],
+  "highlights": "teamLab Planets→东京塔→上野动物园",
+  "notes": "周一有景点休息，排期时避开；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-16",
+  "review_due": "2027-02-12"
+ },
+ {
+  "route_id": "RTE-TYO-03",
+  "name_zh": "东京·艺术漫游半日线（表参道起）",
+  "city": "东京",
+  "theme": "艺术漫游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-002",
+   "POI-TYO-006"
+  ],
+  "total_minutes": 184,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "art"
+  ],
+  "highlights": "根津美术馆→森美术馆",
+  "notes": "周一、周二有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-17）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-17",
+  "review_due": "2027-02-13"
+ },
+ {
+  "route_id": "RTE-TYO-04",
+  "name_zh": "东京·艺术漫游半日线（上野起）",
+  "city": "东京",
+  "theme": "艺术漫游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-003",
+   "POI-TYO-021"
+  ],
+  "total_minutes": 225,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "art"
+  ],
+  "highlights": "国立西洋美术馆→东京国立近代美术馆",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-25）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-25",
+  "review_due": "2027-02-21"
+ },
+ {
+  "route_id": "RTE-TYO-05",
+  "name_zh": "东京·庭园慢游半日线（表参道起）",
+  "city": "东京",
+  "theme": "庭园慢游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-002",
+   "POI-TYO-005"
+  ],
+  "total_minutes": 191,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "elderly",
+   "couple",
+   "accessible_route"
+  ],
+  "tags": [
+   "nature",
+   "relax"
+  ],
+  "highlights": "根津美术馆→新宿御苑",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-09-02",
+  "review_due": "2027-03-01"
+ },
+ {
+  "route_id": "RTE-TYO-06",
+  "name_zh": "东京·庭园慢游半日线（丸之内起）",
+  "city": "东京",
+  "theme": "庭园慢游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-012",
+   "POI-TYO-021"
+  ],
+  "total_minutes": 172,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "elderly",
+   "couple",
+   "accessible_route"
+  ],
+  "tags": [
+   "nature",
+   "relax"
+  ],
+  "highlights": "皇居东御苑→东京国立近代美术馆",
+  "notes": "周一、周五有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-27）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-27",
+  "review_due": "2027-02-23"
+ },
+ {
+  "route_id": "RTE-TYO-07",
+  "name_zh": "东京·雨天室内半日线（上野起）",
+  "city": "东京",
+  "theme": "雨天室内",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-003",
+   "POI-TYO-020"
+  ],
+  "total_minutes": 240,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "rainy_day"
+  ],
+  "highlights": "国立西洋美术馆→国立科学博物馆",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-23）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-23",
+  "review_due": "2027-02-19"
+ },
+ {
+  "route_id": "RTE-TYO-08",
+  "name_zh": "东京·轻松无障碍一日线（上野起）",
+  "city": "东京",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-TYO-001",
+   "POI-TYO-020",
+   "POI-TYO-003",
+   "POI-TYO-011"
+  ],
+  "total_minutes": 475,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "东京国立博物馆→国立科学博物馆→国立西洋美术馆→浅草寺",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-09-03",
+  "review_due": "2027-03-02"
+ },
+ {
+  "route_id": "RTE-TYO-09",
+  "name_zh": "东京·轻松无障碍一日线（表参道起）",
+  "city": "东京",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-TYO-002",
+   "POI-TYO-006",
+   "POI-TYO-007",
+   "POI-TYO-013",
+   "POI-TYO-018"
+  ],
+  "total_minutes": 422,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "根津美术馆→森美术馆→三得利美术馆→东京塔→滨离宫恩赐庭园",
+  "notes": "周一、周二有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-22",
+  "review_due": "2027-02-18"
+ },
+ {
+  "route_id": "RTE-TYO-10",
+  "name_zh": "东京·夜景夜游半日线（六本木起）",
+  "city": "东京",
+  "theme": "夜景夜游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-006",
+   "POI-TYO-013"
+  ],
+  "total_minutes": 166,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "accessible_route"
+  ],
+  "tags": [
+   "night"
+  ],
+  "highlights": "森美术馆→东京塔",
+  "notes": "周二有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-09-01）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-01",
+  "review_due": "2027-02-28"
+ },
+ {
+  "route_id": "RTE-TYO-11",
+  "name_zh": "东京·夜景夜游半日线（涩谷起）",
+  "city": "东京",
+  "theme": "夜景夜游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-014",
+   "POI-TYO-006"
+  ],
+  "total_minutes": 171,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "accessible_route"
+  ],
+  "tags": [
+   "night"
+  ],
+  "highlights": "涩谷天空 SHIBUYA SKY→森美术馆",
+  "notes": "周二有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-21）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-21",
+  "review_due": "2027-02-17"
+ },
+ {
+  "route_id": "RTE-TYO-12",
+  "name_zh": "东京·在地美食与市井半日线（筑地起）",
+  "city": "东京",
+  "theme": "在地美食与市井",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-015",
+   "POI-TYO-030"
+  ],
+  "total_minutes": 196,
+  "intensity": "moderate",
+  "accessible": null,
+  "suitable_for": [
+   "couple"
+  ],
+  "tags": [
+   "food",
+   "shopping"
+  ],
+  "highlights": "筑地场外市场→Yanaka 谷中银座",
+  "notes": "筑地场外市场、Yanaka 谷中银座休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-22",
+  "review_due": "2027-02-18"
+ },
+ {
+  "route_id": "RTE-TYO-13",
+  "name_zh": "东京·自然与湖景半日线（新宿起）",
+  "city": "东京",
+  "theme": "自然与湖景",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-005",
+   "POI-TYO-024",
+   "POI-TYO-025"
+  ],
+  "total_minutes": 235,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "nature"
+  ],
+  "highlights": "新宿御苑→代代木公园→目黑川",
+  "notes": "周一有景点休息，排期时避开；目黑川休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-30",
+  "review_due": "2027-02-26"
+ },
+ {
+  "route_id": "RTE-TYO-14",
+  "name_zh": "东京·自然与湖景半日线（丸之内起）",
+  "city": "东京",
+  "theme": "自然与湖景",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-TYO-012",
+   "POI-TYO-018"
+  ],
+  "total_minutes": 163,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "nature"
+  ],
+  "highlights": "皇居东御苑→滨离宫恩赐庭园",
+  "notes": "周一、周五有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-22",
+  "review_due": "2027-02-18"
+ },
+ {
+  "route_id": "RTE-KYO-01",
+  "name_zh": "京都·亲子博物馆一日线（乌丸起）",
+  "city": "京都",
+  "theme": "亲子博物馆",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-003",
+   "POI-KYO-030",
+   "POI-KYO-024",
+   "POI-KYO-004"
+  ],
+  "total_minutes": 398,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "family",
+   "kids"
+  ],
+  "highlights": "京都国际漫画博物馆→和菓子制作体验（乌丸）→京都水族馆→京都铁道博物馆",
+  "notes": "周二、周三有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-08-24）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-08-24",
+  "review_due": "2027-02-20"
+ },
+ {
+  "route_id": "RTE-KYO-02",
+  "name_zh": "京都·亲子博物馆一日线（岚山起）",
+  "city": "京都",
+  "theme": "亲子博物馆",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-022",
+   "POI-KYO-004",
+   "POI-KYO-024",
+   "POI-KYO-030"
+  ],
+  "total_minutes": 392,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "family",
+   "kids"
+  ],
+  "highlights": "嵯峨野观光小火车→京都铁道博物馆→京都水族馆→和菓子制作体验（乌丸）",
+  "notes": "周二、周三有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-22）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-22",
+  "review_due": "2027-02-18"
+ },
+ {
+  "route_id": "RTE-KYO-03",
+  "name_zh": "京都·艺术漫游半日线（东山起）",
+  "city": "京都",
+  "theme": "艺术漫游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-001",
+   "POI-KYO-025"
+  ],
+  "total_minutes": 169,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "art"
+  ],
+  "highlights": "京都国立博物馆→建仁寺",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-14",
+  "review_due": "2027-02-10"
+ },
+ {
+  "route_id": "RTE-KYO-04",
+  "name_zh": "京都·寺社古迹一日线（东山起）",
+  "city": "京都",
+  "theme": "寺社古迹",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-006",
+   "POI-KYO-026",
+   "POI-KYO-027",
+   "POI-KYO-025",
+   "POI-KYO-016"
+  ],
+  "total_minutes": 292,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "elderly"
+  ],
+  "tags": [
+   "history",
+   "temple"
+  ],
+  "highlights": "清水寺→高台寺→八坂神社→建仁寺→三十三间堂",
+  "notes": "含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-16",
+  "review_due": "2027-02-12"
+ },
+ {
+  "route_id": "RTE-KYO-05",
+  "name_zh": "京都·寺社古迹一日线（北区起）",
+  "city": "京都",
+  "theme": "寺社古迹",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-007",
+   "POI-KYO-017",
+   "POI-KYO-009",
+   "POI-KYO-029",
+   "POI-KYO-028"
+  ],
+  "total_minutes": 403,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "elderly"
+  ],
+  "tags": [
+   "history",
+   "temple"
+  ],
+  "highlights": "金阁寺→龙安寺→天龙寺→西芳寺（苔寺）→东寺",
+  "notes": "西芳寺（苔寺）休息日未记录，需核实；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-09-02",
+  "review_due": "2027-03-01"
+ },
+ {
+  "route_id": "RTE-KYO-06",
+  "name_zh": "京都·庭园慢游半日线（御所起）",
+  "city": "京都",
+  "theme": "庭园慢游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-002",
+   "POI-KYO-018",
+   "POI-KYO-015"
+  ],
+  "total_minutes": 213,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "elderly",
+   "couple",
+   "accessible_route"
+  ],
+  "tags": [
+   "nature",
+   "relax"
+  ],
+  "highlights": "京都御所→平安神宫→南禅寺",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-27）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-27",
+  "review_due": "2027-02-23"
+ },
+ {
+  "route_id": "RTE-KYO-07",
+  "name_zh": "京都·庭园慢游半日线（岚山起）",
+  "city": "京都",
+  "theme": "庭园慢游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-009",
+   "POI-KYO-029"
+  ],
+  "total_minutes": 176,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "elderly",
+   "couple"
+  ],
+  "tags": [
+   "nature",
+   "relax"
+  ],
+  "highlights": "天龙寺→西芳寺（苔寺）",
+  "notes": "西芳寺（苔寺）休息日未记录，需核实；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-15",
+  "review_due": "2027-02-11"
+ },
+ {
+  "route_id": "RTE-KYO-08",
+  "name_zh": "京都·雨天室内半日线（东山起）",
+  "city": "京都",
+  "theme": "雨天室内",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-001",
+   "POI-KYO-024"
+  ],
+  "total_minutes": 230,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "rainy_day"
+  ],
+  "highlights": "京都国立博物馆→京都水族馆",
+  "notes": "周一有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-09-02",
+  "review_due": "2027-03-01"
+ },
+ {
+  "route_id": "RTE-KYO-09",
+  "name_zh": "京都·雨天室内半日线（乌丸起）",
+  "city": "京都",
+  "theme": "雨天室内",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-003",
+   "POI-KYO-001"
+  ],
+  "total_minutes": 221,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "rainy_day"
+  ],
+  "highlights": "京都国际漫画博物馆→京都国立博物馆",
+  "notes": "周一、周三有景点休息，排期时避开",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-09-03",
+  "review_due": "2027-03-02"
+ },
+ {
+  "route_id": "RTE-KYO-10",
+  "name_zh": "京都·轻松无障碍一日线（东山起）",
+  "city": "京都",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-001",
+   "POI-KYO-016",
+   "POI-KYO-025",
+   "POI-KYO-012",
+   "POI-KYO-027"
+  ],
+  "total_minutes": 319,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "京都国立博物馆→三十三间堂→建仁寺→祇园花见小路→八坂神社",
+  "notes": "周一有景点休息，排期时避开；祇园花见小路休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-08-29）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-08-29",
+  "review_due": "2027-02-25"
+ },
+ {
+  "route_id": "RTE-KYO-11",
+  "name_zh": "京都·轻松无障碍一日线（御所起）",
+  "city": "京都",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-002",
+   "POI-KYO-003",
+   "POI-KYO-030",
+   "POI-KYO-025",
+   "POI-KYO-012"
+  ],
+  "total_minutes": 365,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "京都御所→京都国际漫画博物馆→和菓子制作体验（乌丸）→建仁寺→祇园花见小路",
+  "notes": "周一、周二、周三有景点休息，排期时避开；祇园花见小路休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-09-04",
+  "review_due": "2027-03-03"
+ },
+ {
+  "route_id": "RTE-KYO-12",
+  "name_zh": "京都·夜景夜游半日线（东山起）",
+  "city": "京都",
+  "theme": "夜景夜游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-006",
+   "POI-KYO-027",
+   "POI-KYO-012"
+  ],
+  "total_minutes": 195,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "couple"
+  ],
+  "tags": [
+   "night"
+  ],
+  "highlights": "清水寺→八坂神社→祇园花见小路",
+  "notes": "祇园花见小路休息日未记录，需核实；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-05 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-05",
+  "verified_at": "2026-08-15",
+  "review_due": "2027-02-11"
+ },
+ {
+  "route_id": "RTE-KYO-13",
+  "name_zh": "京都·经典首访一日线（东山起）",
+  "city": "京都",
+  "theme": "经典首访",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-006",
+   "POI-KYO-016",
+   "POI-KYO-028",
+   "POI-KYO-010",
+   "POI-KYO-007"
+  ],
+  "total_minutes": 388,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "couple",
+   "family"
+  ],
+  "tags": [
+   "history"
+  ],
+  "highlights": "清水寺→三十三间堂→东寺→二条城→金阁寺",
+  "notes": "含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-30）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-30",
+  "review_due": "2027-02-26"
+ },
+ {
+  "route_id": "RTE-KYO-14",
+  "name_zh": "京都·经典首访一日线（岚山起）",
+  "city": "京都",
+  "theme": "经典首访",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-KYO-008",
+   "POI-KYO-009",
+   "POI-KYO-007",
+   "POI-KYO-010",
+   "POI-KYO-016"
+  ],
+  "total_minutes": 382,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "history"
+  ],
+  "highlights": "岚山竹林小径→天龙寺→金阁寺→二条城→三十三间堂",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-19）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-19",
+  "review_due": "2027-02-15"
+ },
+ {
+  "route_id": "RTE-KYO-15",
+  "name_zh": "京都·在地美食与市井半日线（河原町起）",
+  "city": "京都",
+  "theme": "在地美食与市井",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-KYO-011",
+   "POI-KYO-028"
+  ],
+  "total_minutes": 147,
+  "intensity": "easy",
+  "accessible": null,
+  "suitable_for": [
+   "couple"
+  ],
+  "tags": [
+   "food",
+   "shopping"
+  ],
+  "highlights": "锦市场→东寺",
+  "notes": "锦市场休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-14",
+  "review_due": "2027-02-10"
+ },
+ {
+  "route_id": "RTE-HKN-01",
+  "name_zh": "箱根·亲子博物馆一日线（二之平起）",
+  "city": "箱根",
+  "theme": "亲子博物馆",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-HKN-001",
+   "POI-HKN-009",
+   "POI-HKN-008"
+  ],
+  "total_minutes": 226,
+  "intensity": "moderate",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "family",
+   "accessible_route"
+  ],
+  "tags": [
+   "family",
+   "kids"
+  ],
+  "highlights": "箱根雕刻森林美术馆→箱根空中缆车→芦之湖海贼观光船",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-08 实地踩线记录（2026-09-04）",
+  "verified_status": "verified",
+  "verified_by": "ADV-08",
+  "verified_at": "2026-09-04",
+  "review_due": "2027-03-03"
+ },
+ {
+  "route_id": "RTE-HKN-02",
+  "name_zh": "箱根·艺术漫游半日线（二之平起）",
+  "city": "箱根",
+  "theme": "艺术漫游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-001",
+   "POI-HKN-002"
+  ],
+  "total_minutes": 232,
+  "intensity": "moderate",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "art"
+  ],
+  "highlights": "箱根雕刻森林美术馆→POLA 美术馆",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-06 实地踩线记录（2026-08-28）",
+  "verified_status": "verified",
+  "verified_by": "ADV-06",
+  "verified_at": "2026-08-28",
+  "review_due": "2027-02-24"
+ },
+ {
+  "route_id": "RTE-HKN-03",
+  "name_zh": "箱根·艺术漫游半日线（仙石原起）",
+  "city": "箱根",
+  "theme": "艺术漫游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-002",
+   "POI-HKN-005"
+  ],
+  "total_minutes": 183,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "couple",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "art"
+  ],
+  "highlights": "POLA 美术馆→箱根拉利克美术馆",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-19）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-19",
+  "review_due": "2027-02-15"
+ },
+ {
+  "route_id": "RTE-HKN-04",
+  "name_zh": "箱根·庭园慢游半日线（元箱根起）",
+  "city": "箱根",
+  "theme": "庭园慢游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-011",
+   "POI-HKN-013",
+   "POI-HKN-014"
+  ],
+  "total_minutes": 222,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "elderly",
+   "couple"
+  ],
+  "tags": [
+   "nature",
+   "relax"
+  ],
+  "highlights": "箱根旧街道杉木林→箱根强罗公园→箱根玻璃之森美术馆",
+  "notes": "箱根旧街道杉木林、箱根玻璃之森美术馆休息日未记录，需核实；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-23）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-23",
+  "review_due": "2027-02-19"
+ },
+ {
+  "route_id": "RTE-HKN-05",
+  "name_zh": "箱根·雨天室内半日线（仙石原起）",
+  "city": "箱根",
+  "theme": "雨天室内",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-002",
+   "POI-HKN-004"
+  ],
+  "total_minutes": 232,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "kids",
+   "elderly",
+   "accessible_route"
+  ],
+  "tags": [
+   "rainy_day"
+  ],
+  "highlights": "POLA 美术馆→冈田美术馆",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-01 实地踩线记录（2026-09-02）",
+  "verified_status": "verified",
+  "verified_by": "ADV-01",
+  "verified_at": "2026-09-02",
+  "review_due": "2027-03-01"
+ },
+ {
+  "route_id": "RTE-HKN-06",
+  "name_zh": "箱根·轻松无障碍一日线（仙石原起）",
+  "city": "箱根",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-HKN-002",
+   "POI-HKN-005",
+   "POI-HKN-014",
+   "POI-HKN-009",
+   "POI-HKN-013"
+  ],
+  "total_minutes": 383,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "POLA 美术馆→箱根拉利克美术馆→箱根玻璃之森美术馆→箱根空中缆车→箱根强罗公园",
+  "notes": "箱根玻璃之森美术馆休息日未记录，需核实",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-07 实地踩线记录（2026-08-15）",
+  "verified_status": "verified",
+  "verified_by": "ADV-07",
+  "verified_at": "2026-08-15",
+  "review_due": "2027-02-11"
+ },
+ {
+  "route_id": "RTE-HKN-07",
+  "name_zh": "箱根·轻松无障碍一日线（小涌谷起）",
+  "city": "箱根",
+  "theme": "轻松无障碍",
+  "duration_type": "full_day",
+  "poi_ids": [
+   "POI-HKN-004",
+   "POI-HKN-013",
+   "POI-HKN-009",
+   "POI-HKN-002",
+   "POI-HKN-005"
+  ],
+  "total_minutes": 421,
+  "intensity": "easy",
+  "accessible": true,
+  "suitable_for": [
+   "accessible_route",
+   "elderly"
+  ],
+  "tags": [
+   "accessible_route",
+   "relax"
+  ],
+  "highlights": "冈田美术馆→箱根强罗公园→箱根空中缆车→POLA 美术馆→箱根拉利克美术馆",
+  "notes": "无特别提示",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-03 实地踩线记录（2026-08-14）",
+  "verified_status": "verified",
+  "verified_by": "ADV-03",
+  "verified_at": "2026-08-14",
+  "review_due": "2027-02-10"
+ },
+ {
+  "route_id": "RTE-HKN-08",
+  "name_zh": "箱根·夜景夜游半日线（大涌谷起）",
+  "city": "箱根",
+  "theme": "夜景夜游",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-009",
+   "POI-HKN-010"
+  ],
+  "total_minutes": 100,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "couple"
+  ],
+  "tags": [
+   "night"
+  ],
+  "highlights": "箱根空中缆车→大涌谷",
+  "notes": "含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-08-16）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-08-16",
+  "review_due": "2027-02-12"
+ },
+ {
+  "route_id": "RTE-HKN-09",
+  "name_zh": "箱根·自然与湖景半日线（元箱根起）",
+  "city": "箱根",
+  "theme": "自然与湖景",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-007",
+   "POI-HKN-008",
+   "POI-HKN-011"
+  ],
+  "total_minutes": 154,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "couple",
+   "family"
+  ],
+  "tags": [
+   "nature"
+  ],
+  "highlights": "箱根神社→芦之湖海贼观光船→箱根旧街道杉木林",
+  "notes": "箱根旧街道杉木林休息日未记录，需核实；含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-02 实地踩线记录（2026-09-03）",
+  "verified_status": "verified",
+  "verified_by": "ADV-02",
+  "verified_at": "2026-09-03",
+  "review_due": "2027-03-02"
+ },
+ {
+  "route_id": "RTE-HKN-10",
+  "name_zh": "箱根·自然与湖景半日线（大涌谷起）",
+  "city": "箱根",
+  "theme": "自然与湖景",
+  "duration_type": "half_day",
+  "poi_ids": [
+   "POI-HKN-010",
+   "POI-HKN-013",
+   "POI-HKN-008"
+  ],
+  "total_minutes": 188,
+  "intensity": "moderate",
+  "accessible": false,
+  "suitable_for": [
+   "couple",
+   "family"
+  ],
+  "tags": [
+   "nature"
+  ],
+  "highlights": "大涌谷→箱根强罗公园→芦之湖海贼观光船",
+  "notes": "含台阶或坡道较多的景点，行动不便的客人需调整",
+  "status": "active",
+  "is_synthetic": true,
+  "updated_at": "2026-08-18T09:00:00+00:00",
+  "source_type": "advisor_visit",
+  "source_ref": "ADV-04 实地踩线记录（2026-08-27）",
+  "verified_status": "verified",
+  "verified_by": "ADV-04",
+  "verified_at": "2026-08-27",
+  "review_due": "2027-02-23"
+ }
+]

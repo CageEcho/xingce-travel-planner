@@ -27,3 +27,10 @@ output/
 Users/
 # 个人文件不进公开仓库
 简历*.md
+# 云端部署暂存包、账户绑定与测试登录凭证
+.deploy/
+.vefaas/
+
+# Dify：个人面试材料与其它应用的备份不进仓库
+dify/行策Dify工作流-搭建教程与面试话术.md
+dify/backup/
