@@ -28,6 +28,7 @@ from app.schemas.plan import ItineraryPlan, PlannedDay, PlannedItem, RenderedPla
 from app.schemas.slots import SlotSet
 from app.services import constraints as C
 from app.services.cost import calc_cost
+from app.services.recommend import recommend_products
 from app.services.render import build_checklist, render_plan, structural_violations
 from app.schemas.search import HotelCandidate
 from app.services.retrieval import CandidatePool
@@ -138,7 +139,8 @@ def _open_on(row: dict, d: date) -> int:
 def repair_blocking(plan: ItineraryPlan, blocking: list[Violation], pool: CandidatePool, ctx: TripContext,
                     banned: set[tuple[str, str]]) -> tuple[ItineraryPlan, list[str]]:
     """LLM 回退 3 轮仍有资源级 blocking 违规时，用确定性规则替换违规条目（同城、同类型、当日营业、容量/行李达标）。
-    换不到的保留原样交人工。不改模型输出边界：替换的仍只是 resource_id。"""
+    餐厅 / 景点换不到合规替代时改为「自理 / 待顾问安排」并写入说明（不用不合适的资源凑数）；
+    住宿 / 用车换不到的保留原样交人工。不改模型输出边界：替换的仍只是 resource_id。"""
     plan = plan.model_copy(deep=True)
     used = {it.resource_id for d in plan.days for it in d.items if it.resource_id}
     notes: list[str] = []
@@ -208,6 +210,12 @@ def repair_blocking(plan: ItineraryPlan, blocking: list[Violation], pool: Candid
                 item.resource_id, item.room_id = h.hotel_id, h.room_id
                 notes.append(f"Day {v.day_index} 住宿由系统自动替换：{old} → {h.hotel_id}/{h.room_id}（{v.message}）")
             continue
+        if new_id is None and item.type in ("restaurant", "poi"):
+            item.type, item.resource_id, item.room_id = "free_time", None, None
+            item.reason_note = "候选池内没有当天可用且满足约束的资源，改为自理 / 待顾问安排"
+            notes.append(f"Day {v.day_index} {SLOT_ZH.get(item.slot, item.slot)}：没有满足约束的替代资源，"
+                         f"已移除 {old}，改为自理 / 待顾问安排（{v.message}）")
+            continue
         if new_id:
             used.add(new_id)
             item.resource_id = new_id
@@ -217,6 +225,23 @@ def repair_blocking(plan: ItineraryPlan, blocking: list[Violation], pool: Candid
 
 
 # ───────────────────────── 确定性编排器 ─────────────────────────
+# 客户兴趣（自由文本）→ 景点标签：规则编排兜底时也优先满足偏好
+INTEREST_TAGS = {
+    "动物": {"animals", "kids"}, "火车": {"trains"}, "动漫": {"anime"}, "亲子": {"kids"}, "儿童": {"kids"},
+    "艺术": {"art"}, "美术": {"art"}, "博物馆": {"history", "art"}, "寺": {"temple", "shrine", "heritage"},
+    "神社": {"shrine"}, "历史": {"history", "heritage"}, "文化": {"culture", "heritage"}, "庭园": {"garden"},
+    "温泉": {"onsen", "day_spa"}, "美食": {"food", "market"}, "购物": {"shopping", "shopping_street", "retro"},
+    "摄影": {"view", "night", "scenic"}, "夜景": {"night", "view"}, "自然": {"nature", "lake", "forest"},
+}
+
+
+def interest_tags(slots: SlotSet, children: int) -> set[str]:
+    raw = slots.get("interests") or []
+    interests = raw if isinstance(raw, list) else [raw]
+    tags = {t for i in interests for k, ts in INTEREST_TAGS.items() if k in str(i) for t in ts}
+    return tags | ({"kids"} if children else set())
+
+
 def plan_itinerary_heuristic(slots: SlotSet, pool: CandidatePool, ctx: TripContext, start: date,
                              seq: list[tuple[str, int]], banned: set[tuple[str, str]] | None = None) -> ItineraryPlan:
     banned = banned or set()
@@ -225,6 +250,7 @@ def plan_itinerary_heuristic(slots: SlotSet, pool: CandidatePool, ctx: TripConte
     idx = 0
     total_days = sum(n for _, n in seq)
     pace = str(slots.get("pace") or "moderate")
+    wanted = interest_tags(slots, ctx.children)
 
     def open_on(row: dict, d: date) -> int:
         cd = row.get("closed_days")
@@ -242,7 +268,8 @@ def plan_itinerary_heuristic(slots: SlotSet, pool: CandidatePool, ctx: TripConte
             if o == 0:
                 continue
             dist = C.haversine_km(ref[0], ref[1], r["lat"], r["lng"]) if ref and r.get("lat") else 0.0
-            k = (-o, dist)
+            hit = bool(wanted & set(r.get("tags") or [])) if key == "poi_id" else False
+            k = (-o, -hit, dist)                 # 营业 > 命中兴趣 > 距离近
             if best_key is None or k < best_key:
                 best, best_key = r, k
         return best
@@ -393,6 +420,11 @@ def generate_with_validation(db: Session, slots: SlotSet, pool: CandidatePool, c
     for m in cost.missing_rates:
         checklist.append(ChecklistItem(code="COST", day_index=0, resource_id=m, what_to_verify=f"向供应商索取 {m} 的报价",
                                        reason="未找到价格档，成本中未计入"))
+    # 产品推荐（确定性）：门票 / 预约产品 + 备选主题路线；需预约的门票进待核实清单
+    interests = slots.get("interests")
+    rendered.recommendations, ticket_checks = recommend_products(
+        db, rendered, ctx, interests if isinstance(interests, list) else ([interests] if interests else []))
+    checklist += ticket_checks
     return GenerationResult(rendered=rendered, violations=violations, checklist=checklist, cost=cost, rounds=rounds,
                             rates=rates, llm_calls=llm_calls, ref_blocked=ref_blocked,
                             unknown_count=sum(1 for v in violations if not v.blocking),

@@ -1,0 +1,16 @@
+id: extract_per_person_29
+family: slot_extraction
+input: 我们两家人，4 个大人 2 个孩子（6 岁和 9 岁），每人 3 万，含机票，11 月初去东京 5 天。
+slots: {}
+generate: false
+expect:
+  slots:
+    adults: 4
+    children: 2
+    child_ages: [6, 9]
+    budget_amount: 30000
+    budget_basis: per_person
+    budget_incl_flight: 'yes'
+    duration_days: 5
+    destination_cities: [东京]
+note: 每人口径与含机票都是客户原话，必须准确抽取

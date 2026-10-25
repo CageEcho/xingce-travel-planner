@@ -214,13 +214,16 @@ function clientChecklist(plan: PlanVersionView): string[] {
   for (const day of plan.structure.days) {
     for (const item of day.items) if (item.resource_id && item.name_zh) names.set(item.resource_id, item.name_zh);
   }
-  return unique(plan.checklist.slice(0, 6).map((item) => {
+  // 需预约的门票排在最前：漏订当天无法入场，客户最需要提前知道
+  const ordered = [...plan.checklist].sort((a, b) => Number(b.code === "TKT") - Number(a.code === "TKT"));
+  return unique(ordered.slice(0, 6).map((item) => {
     const name = (item.resource_id && names.get(item.resource_id)) || "相关资源";
     if (item.code === "H2") return `确认${name}可提供符合饮食要求的菜单`;
     if (item.code === "H3") return `确认${name}当日营业及预约时间`;
     if (item.code === "H8") return `确认${name}在出行日期可正常预订`;
     if (item.code === "H9") return `确认${name}的无障碍设施与现场协助`;
     if (item.code === "H11") return `确认${name}的最新价格与有效期`;
+    if (item.code === "H12") return `确认${name}的最新营业与设施信息`;
     return item.what_to_verify
       .replace(/\b(?:HTL|RST|POI|VEH|RM|RP|RATE)-[A-Z0-9-]+\b/gi, name)
       .replace(/\bno_raw\b/gi, "忌生食")

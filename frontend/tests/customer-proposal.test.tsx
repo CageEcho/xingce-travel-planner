@@ -117,6 +117,14 @@ describe("CustomerProposal", () => {
 });
 
 describe("proposalFilename", () => {
+  it("需预约的门票排在预订前确认的最前面", () => {
+    const many = Array.from({ length: 6 }, (_, i) => ({ ...plan.checklist[0], code: "H11", resource_id: `X-${i}` }));
+    const withTicket = { ...plan, checklist: [...many, { code: "TKT", day_index: 1, resource_id: "POI-INTERNAL-001",
+      what_to_verify: "至少提前 30 天预约「三鹰之森吉卜力美术馆 · 成人票」", reason: "按时段预约" }] };
+    render(<CustomerProposal plan={withTicket} card={card} />);
+    expect(screen.getByText("至少提前 30 天预约「三鹰之森吉卜力美术馆 · 成人票」")).toBeInTheDocument();
+  });
+
   it("生成不含空格和非法路径字符的文件名", () => {
     expect(proposalFilename(["东京", "箱根"], "2026-10-15", 2)).toBe("BDT-东京-箱根-2026-10-15-v2");
   });

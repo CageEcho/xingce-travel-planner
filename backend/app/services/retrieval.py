@@ -23,7 +23,7 @@ TIER_ORDER = ["4star", "boutique", "5star", "ryokan", "luxury"]
 
 HOTEL_SQL = """
 SELECT h.hotel_id, h.name_zh, h.name_local, h.city, h.district, h.tier, h.tags, h.lat, h.lng,
-       h.updated_at AS hotel_updated_at,
+       h.updated_at AS hotel_updated_at, h.verified_status,
        r.room_id, r.name_zh AS room_name, r.max_occupancy, r.max_adults, r.max_children, r.min_child_age, r.extra_bed,
        rp.rate_id, rp.net_price, rp.season_uplift, rp.confidence, rp.updated_at AS rate_updated_at,
        (r.min_child_age IS NULL) AS child_age_unknown
@@ -31,6 +31,7 @@ FROM hotel h
 JOIN room_type r  ON r.hotel_id = h.hotel_id
 JOIN rate_plan rp ON rp.resource_type = 'room' AND rp.resource_id = r.room_id
 WHERE h.status = 'active'
+  AND h.verified_status <> 'expired'          -- 数据治理：复核过期的资料不进候选池
   AND h.city = :city
   AND h.tier = ANY(:tiers)
   -- H8 可售期（覆盖全部住宿夜）
@@ -90,7 +91,8 @@ def search_hotels(db: Session, q: HotelQuery) -> SearchResult:
             max_adults=r["max_adults"], max_children=r["max_children"], min_child_age=r["min_child_age"],
             child_age_unknown=bool(r["child_age_unknown"]), extra_bed=r["extra_bed"], net_price=Decimal(r["net_price"]),
             season_uplift=Decimal(r["season_uplift"]), confidence=r["confidence"],
-            rate_updated_at=r["rate_updated_at"].isoformat(), hotel_updated_at=r["hotel_updated_at"].isoformat())
+            rate_updated_at=r["rate_updated_at"].isoformat(), hotel_updated_at=r["hotel_updated_at"].isoformat(),
+            verified_status=r["verified_status"])
         c.score = _score(c, q, now)
         cands.append(c)
     cands.sort(key=lambda c: (-c.score, c.net_price))
@@ -171,6 +173,8 @@ class CandidatePool:
     vehicles: list[dict] = field(default_factory=list)
     funnels: dict[str, dict] = field(default_factory=dict)
     hotel_hints: dict[str, list[RelaxationHint]] = field(default_factory=dict)
+    routes: list[dict] = field(default_factory=list)        # 参考路线（不进 ids()：不能直接作为行程条目）
+    references: list[dict] = field(default_factory=list)    # 相似历史方案（脱敏）
 
     def ids(self) -> set[str]:
         s = {h.hotel_id for h in self.hotels} | {h.room_id for h in self.hotels}
@@ -184,6 +188,7 @@ class CandidatePool:
         """摘要化：只输出 resource_id + 关键结构化字段。不含价格、描述、advisor_notes。"""
         seen: set[str] = set()
         hotels = []
+        per_city: dict[str, int] = {}
         for h in self.hotels:
             if h.hotel_id in seen:
                 # 同酒店多个房型：追加房型
@@ -192,12 +197,13 @@ class CandidatePool:
                         x["rooms"].append({"room_id": h.room_id, "max_occupancy": h.max_occupancy,
                                            "min_child_age": h.min_child_age})
                 continue
+            if per_city.get(h.city, 0) >= per_type_limit:
+                continue                      # 按城市限额：多城行程里每座城市都要有酒店候选
+            per_city[h.city] = per_city.get(h.city, 0) + 1
             seen.add(h.hotel_id)
             hotels.append({"hotel_id": h.hotel_id, "city": h.city, "district": h.district, "tier": h.tier,
                            "tags": h.tags[:6], "lat": h.lat, "lng": h.lng,
                            "rooms": [{"room_id": h.room_id, "max_occupancy": h.max_occupancy, "min_child_age": h.min_child_age}]})
-            if len(hotels) >= per_type_limit:
-                break
 
         def by_city(rows: list[dict], key: str, fields: list[str]) -> list[dict]:
             out: list[dict] = []
@@ -215,22 +221,36 @@ class CandidatePool:
                 out.append(item)
             return out
 
+        pois = by_city(self.pois, "poi_id",
+                       ["city", "district", "category", "closed_days", "duration_min", "intensity", "accessible", "tags", "lat", "lng"])
         return {
             "hotels": hotels,
             "restaurants": by_city(self.restaurants, "rest_id",
                                    ["city", "district", "cuisine", "price_band", "closed_days", "dietary_support", "child_friendly", "lat", "lng"]),
-            "pois": by_city(self.pois, "poi_id",
-                            ["city", "district", "category", "closed_days", "duration_min", "intensity", "accessible", "tags", "lat", "lng"]),
+            "pois": pois,
             "vehicles": [{k: v[k] for k in ("vehicle_id", "city", "seats", "luggage_28")} for v in self.vehicles],
-            "note": "closed_days: 0=周日..6=周六（closed_zh 是中文标注）；null 表示未记录（不等于全年无休）。安排前对照 skeleton 里每天的 weekday_zh。",
+            "reference_routes": self._compact_routes({p["poi_id"] for p in pois}),
+            "similar_cases": [{k: c[k] for k in ("plan_id", "summary", "lessons")} for c in self.references],
+            "note": "closed_days: 0=周日..6=周六（closed_zh 是中文标注）；null 表示未记录（不等于全年无休）。安排前对照 skeleton 里每天的 weekday_zh。"
+                    "reference_routes / similar_cases 只是参考：可以借鉴路线里景点的顺序，但条目必须引用 pois 里出现的 poi_id。",
         }
+
+    def _compact_routes(self, visible_pois: set[str]) -> list[dict]:
+        """路线只保留模型在本次 prompt 里看得到的景点，避免引导它引用摘要外的 ID。"""
+        out = []
+        for r in self.routes:
+            pois = [p for p in r["poi_ids"] if p in visible_pois]
+            if len(pois) >= 2:
+                out.append({"route_id": r["route_id"], "city": r["city"], "theme": r["theme"],
+                            "duration_type": r["duration_type"], "poi_ids": pois})
+        return out
 
 
 def search_restaurants(db: Session, city: str, restrictions: list[str], children: int) -> list[dict]:
     """硬过滤：city/active；有饮食限制时，明确不支持的排除，未记录（空）的保留（约束层判 UNKNOWN）。"""
     sql = """SELECT rest_id, name_zh, name_local, city, district, cuisine, price_band, closed_days, open_from, open_to,
-                    dietary_support, child_friendly, lat, lng, tags, updated_at
-             FROM restaurant WHERE status='active' AND city=:city
+                    dietary_support, child_friendly, lat, lng, tags, updated_at, verified_status
+             FROM restaurant WHERE status='active' AND verified_status <> 'expired' AND city=:city
                AND (CAST(:need_count AS int) = 0 OR cardinality(dietary_support) = 0 OR dietary_support @> CAST(:need AS text[]))
              ORDER BY CASE price_band WHEN 'luxury' THEN 0 WHEN 'high' THEN 1 WHEN 'mid' THEN 2 ELSE 3 END, rest_id"""
     rows = db.execute(text(sql), {"city": city, "need_count": len(restrictions), "need": restrictions}).mappings().all()
@@ -240,8 +260,8 @@ def search_restaurants(db: Session, city: str, restrictions: list[str], children
 def search_pois(db: Session, city: str, accessible_required: bool, children: int) -> list[dict]:
     """硬过滤：city/active；需要无障碍时排除 accessible=false（NULL 保留，判 UNKNOWN）。"""
     sql = """SELECT poi_id, name_zh, name_local, city, district, category, closed_days, open_from, open_to, duration_min,
-                    intensity, accessible, tags, lat, lng, updated_at
-             FROM poi WHERE status='active' AND city=:city
+                    intensity, accessible, tags, lat, lng, updated_at, verified_status
+             FROM poi WHERE status='active' AND verified_status <> 'expired' AND city=:city
                AND (NOT CAST(:acc AS boolean) OR accessible IS DISTINCT FROM false)
                AND (CAST(:children AS int) = 0 OR intensity <> 'hard')
              ORDER BY category, poi_id"""
@@ -251,8 +271,8 @@ def search_pois(db: Session, city: str, accessible_required: bool, children: int
 
 def search_vehicles(db: Session, city: str, pax: int, luggage_est: int) -> list[dict]:
     """硬过滤：座位必须够；行李已记录的必须够，未记录的保留（判 UNKNOWN）。"""
-    sql = """SELECT vehicle_id, name_zh, city, seats, luggage_28, service_hours, updated_at
-             FROM vehicle WHERE status='active' AND city=:city AND seats >= :pax
+    sql = """SELECT vehicle_id, name_zh, city, seats, luggage_28, service_hours, updated_at, verified_status
+             FROM vehicle WHERE status='active' AND verified_status <> 'expired' AND city=:city AND seats >= :pax
                AND (luggage_28 IS NULL OR luggage_28 >= :lug)
              ORDER BY seats, vehicle_id"""
     rows = db.execute(text(sql), {"city": city, "pax": pax, "lug": luggage_est}).mappings().all()
@@ -271,10 +291,61 @@ def _row(r) -> dict:
     return d
 
 
+# 客户兴趣（自由文本）→ 路线主题
+INTEREST_THEMES = {
+    "亲子": "亲子博物馆", "儿童": "亲子博物馆", "动物": "亲子博物馆", "火车": "亲子博物馆", "动漫": "亲子博物馆",
+    "艺术": "艺术漫游", "美术": "艺术漫游", "博物馆": "艺术漫游", "寺": "寺社古迹", "神社": "寺社古迹", "历史": "寺社古迹",
+    "文化": "寺社古迹", "庭园": "庭园慢游", "园林": "庭园慢游", "安静": "庭园慢游", "夜景": "夜景夜游", "摄影": "夜景夜游",
+    "美食": "在地美食与市井", "购物": "在地美食与市井", "温泉": "自然与湖景", "自然": "自然与湖景", "湖": "自然与湖景",
+    "经典": "经典首访", "首次": "经典首访",
+}
+
+
+def interest_themes(interests: list[str] | None, children: int, accessible_required: bool) -> set[str]:
+    themes = {t for i in (interests or []) for k, t in INTEREST_THEMES.items() if k in str(i)}
+    if children:
+        themes.add("亲子博物馆")
+    if accessible_required:
+        themes.add("轻松无障碍")
+    return themes or {"经典首访"}
+
+
+def search_routes(db: Session, city: str, themes: set[str], accessible_required: bool, limit: int = 4) -> list[dict]:
+    """参考路线：同城、主题命中优先；需要无障碍时只取全程可达的路线。"""
+    sql = """SELECT route_id, name_zh, city, theme, duration_type, poi_ids, total_minutes, intensity, accessible,
+                    suitable_for, highlights, notes
+             FROM route WHERE status='active' AND verified_status <> 'expired' AND city=:city
+               AND (NOT CAST(:acc AS boolean) OR accessible IS TRUE)
+             ORDER BY (theme = ANY(:themes)) DESC, route_id LIMIT :limit"""
+    rows = db.execute(text(sql), {"city": city, "acc": accessible_required, "themes": list(themes), "limit": limit})
+    return [_row(r) for r in rows.mappings().all()]
+
+
+def search_history(db: Session, cities: list[str], ctx, tiers: list[str], interests: list[str] | None,
+                   limit: int = 3) -> list[dict]:
+    """相似历史方案：城市重合度 + 客群（儿童/饮食/无障碍）+ 档次 + 兴趣，打分取前 N。只取成交或修改后成交的。"""
+    rows = db.execute(text("""SELECT plan_id, cities, children, dietary, accessibility, hotel_tier, interests, summary,
+                                     lessons, outcome FROM history_plan WHERE outcome <> '未成交'
+                                AND cities && CAST(:cities AS text[])"""), {"cities": cities}).mappings().all()
+    want_diet = set(ctx.restrictions)
+
+    def score(r) -> float:
+        s = len(set(r["cities"]) & set(cities)) / len(set(r["cities"]) | set(cities))
+        s += 0.5 if bool(r["children"]) == bool(ctx.children) else 0
+        s += 0.4 if want_diet and want_diet & set(r["dietary"]) else 0
+        s += 0.4 if ctx.accessible_required and r["accessibility"] else 0
+        s += 0.3 if set(r["hotel_tier"]) & set(tiers) else 0
+        s += 0.1 * len({str(i) for i in interests or []} & set(r["interests"]))
+        return s
+
+    return [dict(r) for r in sorted(rows, key=lambda r: (-score(r), r["plan_id"]))[:limit]]
+
+
 def build_pool(db: Session, cities: list[str], checkin: date, checkout: date, ctx, tiers: list[str],
-               require_tags: list[str] | None = None) -> CandidatePool:
+               require_tags: list[str] | None = None, interests: list[str] | None = None) -> CandidatePool:
     """按城市构建候选池。酒店按每城停留区间检索（简化：用整段行程日期，保证任意夜都可售）。"""
     pool = CandidatePool()
+    themes = interest_themes(interests, ctx.children, ctx.accessible_required)
     for city in cities:
         q = HotelQuery(city=city, checkin=checkin, checkout=checkout, adults=ctx.adults, children=ctx.children,
                        child_ages=ctx.child_ages, tiers=tiers, require_tags=require_tags or [],
@@ -287,4 +358,6 @@ def build_pool(db: Session, cities: list[str], checkin: date, checkout: date, ct
         pool.restaurants.extend(search_restaurants(db, city, ctx.restrictions, ctx.children))
         pool.pois.extend(search_pois(db, city, ctx.accessible_required, ctx.children))
         pool.vehicles.extend(search_vehicles(db, city, ctx.pax, ctx.luggage_est))
+        pool.routes.extend(search_routes(db, city, themes, ctx.accessible_required))
+    pool.references = search_history(db, cities, ctx, tiers, interests)
     return pool

@@ -4,104 +4,359 @@
   "name": "樱和地接社",
   "contract_to": "2027-03-31",
   "lead_time_days": 1,
-  "status": "active"
+  "status": "active",
+  "category": "dmc"
  },
  {
   "supplier_id": "SUP-002",
   "name": "东瀛尊享 DMC",
   "contract_to": "2027-03-31",
   "lead_time_days": 1,
-  "status": "active"
+  "status": "active",
+  "category": "dmc"
  },
  {
   "supplier_id": "SUP-003",
   "name": "京都御用旅馆联盟",
   "contract_to": "2027-03-31",
   "lead_time_days": 7,
-  "status": "active"
+  "status": "active",
+  "category": "ryokan_alliance"
  },
  {
   "supplier_id": "SUP-004",
   "name": "箱根温泉组合",
   "contract_to": "2027-03-31",
   "lead_time_days": 1,
-  "status": "active"
+  "status": "active",
+  "category": "ryokan_alliance"
  },
  {
   "supplier_id": "SUP-005",
   "name": "帝都用车服务",
   "contract_to": "2027-03-31",
   "lead_time_days": 1,
-  "status": "active"
+  "status": "active",
+  "category": "transport"
  },
  {
   "supplier_id": "SUP-006",
   "name": "关西专车株式会社",
   "contract_to": "2027-03-31",
   "lead_time_days": 7,
-  "status": "active"
+  "status": "active",
+  "category": "transport"
  },
  {
   "supplier_id": "SUP-007",
   "name": "富士箱根观光巴士",
   "contract_to": "2027-03-31",
   "lead_time_days": 3,
-  "status": "active"
+  "status": "active",
+  "category": "transport"
  },
  {
   "supplier_id": "SUP-008",
   "name": "和食预约平台 Yoyaku",
   "contract_to": "2027-03-31",
   "lead_time_days": 0,
-  "status": "active"
+  "status": "active",
+  "category": "dining"
  },
  {
   "supplier_id": "SUP-009",
   "name": "东京餐饮直签组",
   "contract_to": "2026-06-30",
   "lead_time_days": 1,
-  "status": "expired"
+  "status": "expired",
+  "category": "dining"
  },
  {
   "supplier_id": "SUP-010",
   "name": "京料理会",
   "contract_to": "2027-03-31",
   "lead_time_days": 1,
-  "status": "active"
+  "status": "active",
+  "category": "dining"
  },
  {
   "supplier_id": "SUP-011",
   "name": "环球豪华酒店集团 APAC",
   "contract_to": "2027-03-31",
   "lead_time_days": 3,
-  "status": "active"
+  "status": "active",
+  "category": "hotel_group"
  },
  {
   "supplier_id": "SUP-012",
   "name": "日本国立博物馆联票中心",
   "contract_to": "2027-03-31",
   "lead_time_days": 3,
-  "status": "active"
+  "status": "active",
+  "category": "ticket"
  },
  {
   "supplier_id": "SUP-013",
   "name": "岚山观光协会",
   "contract_to": "2027-03-31",
   "lead_time_days": 3,
-  "status": "active"
+  "status": "active",
+  "category": "ticket"
  },
  {
   "supplier_id": "SUP-014",
   "name": "箱根周游券事务所",
   "contract_to": "2027-03-31",
   "lead_time_days": 0,
-  "status": "active"
+  "status": "active",
+  "category": "ticket"
  },
  {
   "supplier_id": "SUP-015",
   "name": "老铺旅馆直签",
   "contract_to": "2026-06-30",
   "lead_time_days": 1,
-  "status": "expired"
+  "status": "expired",
+  "category": "hotel_direct"
+ },
+ {
+  "supplier_id": "SUP-016",
+  "name": "东京城市酒店联盟",
+  "category": "hotel_group",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-017",
+  "name": "京阪精品酒店集团",
+  "category": "hotel_group",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-018",
+  "name": "樱庭酒店管理",
+  "category": "hotel_group",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 0,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-019",
+  "name": "富士山麓度假酒店集团",
+  "category": "hotel_group",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 0,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-020",
+  "name": "关东奢华酒店直签组",
+  "category": "hotel_direct",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 3,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-021",
+  "name": "京都御所南酒店合作社",
+  "category": "hotel_group",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-022",
+  "name": "京都町家民宿联盟",
+  "category": "hotel_group",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 3,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-023",
+  "name": "京都老铺旅馆会",
+  "category": "ryokan_alliance",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-024",
+  "name": "箱根强罗旅馆组合",
+  "category": "ryokan_alliance",
+  "contract_to": "2026-12-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-025",
+  "name": "箱根仙石原温泉会",
+  "category": "ryokan_alliance",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-026",
+  "name": "芦之湖畔旅馆联盟",
+  "category": "ryokan_alliance",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-027",
+  "name": "岚山嵯峨野旅馆会",
+  "category": "ryokan_alliance",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-028",
+  "name": "宫之下温泉旅馆组合",
+  "category": "ryokan_alliance",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 3,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-029",
+  "name": "东瀛匠心地接",
+  "category": "dmc",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-030",
+  "name": "关西礼宾服务",
+  "category": "dmc",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 0,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-031",
+  "name": "雅途日本 DMC",
+  "category": "dmc",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 0,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-032",
+  "name": "京都文化体验社",
+  "category": "dmc",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-033",
+  "name": "东京茶道体验协会",
+  "category": "dmc",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 7,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-034",
+  "name": "东京礼宾专车",
+  "category": "transport",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-035",
+  "name": "京都御用包车",
+  "category": "transport",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 3,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-036",
+  "name": "箱根山岳交通",
+  "category": "transport",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 3,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-037",
+  "name": "无障碍出行服务株式会社",
+  "category": "transport",
+  "contract_to": "2026-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-038",
+  "name": "东京美食预约中心",
+  "category": "dining",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-039",
+  "name": "京料理预约会",
+  "category": "dining",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-040",
+  "name": "箱根温泉美食组",
+  "category": "dining",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-041",
+  "name": "米其林餐厅代订平台",
+  "category": "dining",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 0,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-042",
+  "name": "东京景点票务中心",
+  "category": "ticket",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-043",
+  "name": "京都寺社参拜预约所",
+  "category": "ticket",
+  "contract_to": "2027-06-30",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-044",
+  "name": "箱根体验票务",
+  "category": "ticket",
+  "contract_to": "2027-12-31",
+  "lead_time_days": 1,
+  "status": "active"
+ },
+ {
+  "supplier_id": "SUP-045",
+  "name": "日本美术馆联票事务所",
+  "category": "ticket",
+  "contract_to": "2027-03-31",
+  "lead_time_days": 7,
+  "status": "active"
  }
 ]

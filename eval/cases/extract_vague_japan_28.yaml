@@ -1,0 +1,11 @@
+id: extract_vague_japan_28
+family: slot_extraction
+input: 明年春天想带爸妈去日本玩一周，住好一点，钱不是问题。
+slots: {}
+generate: false
+expect:
+  slots:
+    duration_days: 7
+  slots_null: [destination_cities, hotel_tier, budget_amount]
+  must_have_followup_slots: [destination_cities]
+note: 只说「日本」不得猜城市；「住好一点」「钱不是问题」都不能直接落槽

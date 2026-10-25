@@ -1,22 +1,84 @@
 [
  {
+  "id": "accessible_hakone_23",
+  "family": "hard_constraint_trap",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 0,
+  "pass": false,
+  "why": [
+   "LLM_FAILED:LLM_FAILED"
+  ],
+  "key_items": null,
+  "scores": {},
+  "badcase": [
+   "模型服务异常"
+  ]
+ },
+ {
+  "id": "anime_ticket_21",
+  "family": "knowledge_coverage",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 1,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 15,
+  "badcase": []
+ },
+ {
   "id": "budget_tier_conflict_13",
   "family": "budget_conflict",
   "slots_f1": null,
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "cross_city_commute_08",
   "family": "hard_constraint_trap",
   "slots_f1": null,
   "blocking": 0,
-  "unknown": 0,
+  "unknown": 1,
   "pass": true,
   "why": [],
-  "rounds": 1
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 2,
+  "first_pass": false,
+  "recommendations": 26,
+  "badcase": []
  },
  {
   "id": "days_cities_conflict_14",
@@ -25,7 +87,15 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "extract_budget_basis_18",
@@ -34,18 +104,32 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   4,
+   4
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "extract_euphemism_17",
   "family": "slot_extraction",
-  "slots_f1": 0.5,
+  "slots_f1": 1.0,
   "blocking": 0,
   "unknown": 0,
-  "pass": false,
-  "why": [
-   "slots_f1=0.5"
-  ]
+  "pass": true,
+  "why": [],
+  "key_items": [
+   3,
+   3
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "extract_family_16",
@@ -54,7 +138,15 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   6,
+   6
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "extract_locked_slots_20",
@@ -63,7 +155,15 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   1,
+   1
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "extract_no_guess_19",
@@ -72,17 +172,90 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   4,
+   4
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
+ },
+ {
+  "id": "extract_per_person_29",
+  "family": "slot_extraction",
+  "slots_f1": 1.0,
+  "blocking": 0,
+  "unknown": 0,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   8,
+   8
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
+ },
+ {
+  "id": "extract_vague_japan_28",
+  "family": "slot_extraction",
+  "slots_f1": 1.0,
+  "blocking": 0,
+  "unknown": 0,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   5,
+   5
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
+ },
+ {
+  "id": "extract_wheelchair_30",
+  "family": "slot_extraction",
+  "slots_f1": 1.0,
+  "blocking": 0,
+  "unknown": 0,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   7,
+   7
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
  },
  {
   "id": "family_kyoto_01",
   "family": "hard_constraint_trap",
   "slots_f1": 1.0,
   "blocking": 0,
-  "unknown": 1,
+  "unknown": 0,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   4,
+   4
+  ],
+  "scores": {
+   "需求理解": 100,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 1,
+  "first_pass": false,
+  "recommendations": 8,
+  "badcase": []
  },
  {
   "id": "family_ryokan_child_02",
@@ -92,17 +265,117 @@
   "unknown": 0,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   2,
+   2
+  ],
+  "scores": {
+   "需求理解": 100,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 8,
+  "badcase": []
+ },
+ {
+  "id": "governance_pending_22",
+  "family": "knowledge_coverage",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 4,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 4,
+  "badcase": []
  },
  {
   "id": "hakone_family_03",
   "family": "hard_constraint_trap",
   "slots_f1": null,
   "blocking": 0,
+  "unknown": 0,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 10,
+  "badcase": []
+ },
+ {
+  "id": "halal_shortage_25",
+  "family": "null_handling",
+  "slots_f1": null,
+  "blocking": 0,
   "unknown": 2,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 4,
+  "badcase": []
+ },
+ {
+  "id": "honeymoon_ryokan_27",
+  "family": "knowledge_coverage",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 1,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 2,
+  "first_pass": false,
+  "recommendations": 10,
+  "badcase": []
  },
  {
   "id": "large_family_luggage_07",
@@ -112,7 +385,21 @@
   "unknown": 3,
   "pass": true,
   "why": [],
-  "rounds": 2
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 2,
+  "first_pass": false,
+  "recommendations": 25,
+  "badcase": []
  },
  {
   "id": "monday_museum_05",
@@ -122,7 +409,21 @@
   "unknown": 1,
   "pass": true,
   "why": [],
-  "rounds": 2
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 2,
+  "first_pass": false,
+  "recommendations": 7,
+  "badcase": []
  },
  {
   "id": "null_child_age_10",
@@ -132,7 +433,21 @@
   "unknown": 1,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 1,
+  "first_pass": false,
+  "recommendations": 15,
+  "badcase": []
  },
  {
   "id": "null_dietary_support_09",
@@ -142,28 +457,71 @@
   "unknown": 0,
   "pass": true,
   "why": [],
-  "note": "模型未选用陷阱资源",
-  "rounds": 0
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "note": "未选用 H1/H11/H2/H3 类陷阱资源",
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 8,
+  "badcase": []
  },
  {
   "id": "null_reference_price_11",
   "family": "null_handling",
   "slots_f1": null,
   "blocking": 0,
-  "unknown": 2,
+  "unknown": 0,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "note": "未选用 H11 类陷阱资源",
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 4,
+  "badcase": []
  },
  {
   "id": "null_vehicle_luggage_12",
   "family": "null_handling",
   "slots_f1": null,
   "blocking": 0,
-  "unknown": 1,
+  "unknown": 0,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 9,
+  "badcase": []
  },
  {
   "id": "room_pax_conflict_15",
@@ -172,7 +530,39 @@
   "blocking": 0,
   "unknown": 0,
   "pass": true,
-  "why": []
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": 100
+  },
+  "badcase": []
+ },
+ {
+  "id": "three_city_family_26",
+  "family": "hard_constraint_trap",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 4,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 50,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 1,
+  "first_pass": false,
+  "recommendations": 29,
+  "badcase": []
  },
  {
   "id": "tokyo_couple_luxury_04",
@@ -182,16 +572,68 @@
   "unknown": 1,
   "pass": true,
   "why": [],
-  "rounds": 0
+  "key_items": [
+   2,
+   2
+  ],
+  "scores": {
+   "需求理解": 100,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 9,
+  "badcase": []
  },
  {
   "id": "tuesday_restaurant_06",
   "family": "hard_constraint_trap",
   "slots_f1": null,
   "blocking": 0,
-  "unknown": 2,
+  "unknown": 0,
   "pass": true,
   "why": [],
-  "rounds": 2
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 2,
+  "first_pass": false,
+  "recommendations": 10,
+  "badcase": []
+ },
+ {
+  "id": "vegan_tokyo_24",
+  "family": "hard_constraint_trap",
+  "slots_f1": null,
+  "blocking": 0,
+  "unknown": 4,
+  "pass": true,
+  "why": [],
+  "key_items": [
+   0,
+   0
+  ],
+  "scores": {
+   "需求理解": null,
+   "资源召回": 100,
+   "事实准确性": 100,
+   "行程合理性": 100,
+   "方案完整度": 100
+  },
+  "rounds": 0,
+  "first_pass": true,
+  "recommendations": 18,
+  "badcase": []
  }
 ]

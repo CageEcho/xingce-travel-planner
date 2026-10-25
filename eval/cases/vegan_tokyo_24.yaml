@@ -1,0 +1,23 @@
+id: vegan_tokyo_24
+family: hard_constraint_trap
+input: 母亲吃全素蛋奶都不行，一家三口女儿 12 岁，东京 5 天，住奢华，喜欢艺术。
+slots:
+  destination_cities: [东京]
+  date_start: '2026-10-21'
+  duration_days: 5
+  adults: 2
+  children: 1
+  child_ages: [12]
+  budget_amount: 150000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [luxury]
+  dietary: [vegan]
+  accessibility: none
+  interests: [艺术]
+generate: true
+expect:
+  max_blocking_violations: 0
+  forbid_code_fail: [H2]
+  interest_tags_any: [art]
+note: 纯素：所有餐厅必须支持 vegan，否则宁可留空写入假设

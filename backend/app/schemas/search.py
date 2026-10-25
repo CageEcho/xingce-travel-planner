@@ -56,6 +56,7 @@ class HotelCandidate(BaseModel):
     season_uplift: Decimal | None
     confidence: str | None
     rate_updated_at: str | None
+    verified_status: str = "verified"     # 数据治理：pending → 约束层判 UNKNOWN（H12）
     hotel_updated_at: str
     score: float = 0.0
 

@@ -9,6 +9,17 @@ import type { SlotName } from "@/lib/api/types";
 
 const GAP = 8;
 const MARGIN = 12;
+const SOURCE_LABEL: Record<string, string> = {
+  supplier_contract: "供应商合同/报价单", official_site: "官方网站/公告", advisor_visit: "顾问实地踩线",
+  ota_reference: "OTA 公开信息（参考）", historical_order: "历史订单回填",
+};
+
+function sourceLine(p: NonNullable<RenderedItem["provenance"]>): string {
+  const source = p.source_type ? SOURCE_LABEL[p.source_type] ?? p.source_type : "未标注";
+  if (p.verified_status === "pending") return `${source} · 待人工校验（截止 ${p.review_due ?? "—"}）`;
+  if (p.verified_status === "verified") return `${source} · 已校验 ${p.verified_at ?? ""}，下次复核 ${p.review_due ?? "—"}`;
+  return source;
+}
 
 /** ⓘ 溯源：resource_id / 更新时间 / 命中需求 / 满足约束 / 价格来源 / 事实字段。悬停或聚焦显示。
  *  浮层经 Portal 挂到 body 并 fixed 定位，避免被方案面板的滚动容器（overflow）裁切；下方放不下时翻到上方。 */
@@ -75,6 +86,7 @@ export function ProvenancePopover({ item }: { item: RenderedItem }) {
           <div>满足约束：{p.satisfied_constraints.join(" ") || "—"}</div>
           <div>待核实约束：{p.unknown_constraints.join(" ") || "无"}</div>
           <div>价格来源：{p.price_source ?? "—"}{p.rate_id && ` (${p.rate_id})`}</div>
+          <div>资料来源：{sourceLine(p)}</div>
           <div className="mt-1 text-white/60">事实字段：{facts || "—"}</div>
         </div>,
         document.body,

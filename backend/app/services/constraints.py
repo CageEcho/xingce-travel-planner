@@ -1,4 +1,4 @@
-"""7 条硬约束（M0）——三态判定 PASS / FAIL / UNKNOWN。确定性 Python，不经过模型。
+"""硬约束——三态判定 PASS / FAIL / UNKNOWN。确定性 Python，不经过模型。
 
 ⚠️ 本项目最容易写错的地方：`if row.min_child_age and row.min_child_age > age` 会让 NULL 静默通过。
    每个允许 NULL 的字段都必须显式三分支：None → UNKNOWN；不满足 → FAIL；满足 → PASS。
@@ -11,6 +11,7 @@
 | H5  | 同日通勤 ≤ 180（转场日 300） | 缺经纬度 |
 | H8  | 可售期 valid_from ≤ 日期 ≤ valid_to 且不在 blackout | 未找到价格档 |
 | H11 | 价格来源 contracted 且 90 天内 | 其余情况 → UNKNOWN；超 RESOURCE_STALENESS_DAYS → FAIL |
+| H12 | 资料已人工校验（数据治理） | verified_status=pending → UNKNOWN；expired → FAIL（正常情况下检索已排除） |
 """
 from __future__ import annotations
 
@@ -196,3 +197,15 @@ def h11_price_source(rate: RateFacts | None, resource_id: str, now: datetime | N
     reason = ("非合约价（%s）" % rate.confidence) if rate.confidence != "contracted" else f"合约价已 {age_days} 天未更新"
     return _v("H11", Verdict.UNKNOWN, day_index, item_index, resource_id, f"{reason}，报价需人工核对",
               verify_hint=f"与供应商核对 {resource_id} 的价格档 {rate.rate_id} 是否仍有效")
+
+
+# ───────────────────────── H12 资料校验状态（数据治理） ─────────────────────────
+def h12_verified(status: str | None, resource_id: str, review_due: date | None = None,
+                 day_index: int = 0, item_index: int | None = None) -> Violation | None:
+    if status in (None, "verified"):
+        return None
+    if status == "expired":
+        return _v("H12", Verdict.FAIL, day_index, item_index, resource_id,
+                  f"资料复核已过期（应于 {review_due} 前复核），不得用于方案")
+    return _v("H12", Verdict.UNKNOWN, day_index, item_index, resource_id, "资料尚未人工校验，报价前需核实",
+              verify_hint=f"按来源复核 {resource_id} 的营业、设施与政策信息" + (f"（截止 {review_due}）" if review_due else ""))

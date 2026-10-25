@@ -1,0 +1,24 @@
+id: anime_ticket_21
+family: knowledge_coverage
+input: 一家三口，孩子 7 岁很喜欢吉卜力和动漫，10 月 16 号起东京 4 天，住五星，没有忌口。
+slots:
+  destination_cities: [东京]
+  date_start: '2026-10-16'
+  duration_days: 4
+  adults: 2
+  children: 1
+  child_ages: [7]
+  budget_amount: 80000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [5star]
+  dietary: [none]
+  accessibility: none
+  interests: [动漫, 亲子]
+generate: true
+expect:
+  max_blocking_violations: 0
+  interest_tags_any: [anime, kids]
+  reservation_pois_flagged: true
+  min_recommendations: 1
+note: 兴趣应命中动漫/亲子景点；方案里凡是需预约门票的景点必须出现在待核实清单（TKT）

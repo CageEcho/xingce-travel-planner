@@ -1,0 +1,21 @@
+id: accessible_hakone_23
+family: hard_constraint_trap
+input: 我和太太带父亲，父亲坐轮椅，12 月 5 号去箱根泡温泉 3 天，住奢华，饮食无禁忌。
+slots:
+  destination_cities: [箱根]
+  date_start: '2026-12-05'
+  duration_days: 3
+  adults: 3
+  children: 0
+  budget_amount: 90000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [luxury, ryokan]
+  dietary: [none]
+  accessibility: wheelchair
+  interests: [温泉, 艺术]
+generate: true
+expect:
+  max_blocking_violations: 0
+  no_inaccessible_poi: true
+note: 轮椅客人：明确不可达的景点（大涌谷、箱根神社等）不得出现

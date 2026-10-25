@@ -1,0 +1,23 @@
+id: honeymoon_ryokan_27
+family: knowledge_coverage
+input: 新婚夫妇 11 月中旬京都和箱根 6 天，想住有私汤的日式旅馆，喜欢摄影和温泉，节奏轻松。
+slots:
+  destination_cities: [京都, 箱根]
+  date_start: '2026-11-12'
+  duration_days: 6
+  adults: 2
+  children: 0
+  budget_amount: 120000
+  budget_basis: total
+  budget_incl_flight: 'no'
+  hotel_tier: [ryokan, luxury]
+  dietary: [none]
+  accessibility: none
+  interests: [温泉, 摄影]
+  pace: relaxed
+generate: true
+expect:
+  max_blocking_violations: 0
+  hotel_tier_respected: true
+  interest_tags_any: [onsen, view, night, lake, scenic]
+note: 档次必须遵守；兴趣应命中温泉/风景类景点

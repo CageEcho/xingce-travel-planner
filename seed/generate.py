@@ -541,16 +541,65 @@ def assert_traps(data: dict) -> list[tuple[str, bool, str]]:
         ids = [r[key] for r in data[name]]
         if len(ids) != len(set(ids)):
             raise AssertionError(f"{name}.{key} 存在重复主键")
-    # 规模断言（PRD-v3 §4.2）
-    checks_scale = [("hotel=42", len(hotels) == 42), ("restaurant=60", len(rests) == 60), ("poi=75", len(pois) == 75),
-                    ("supplier=15", len(data["supplier"]) == 15)]
+    # 规模断言：核心数据（PRD-v3 §4.2）之上叠加扩充数据，只增不减
+    checks_scale = [("hotel≥42", len(hotels) >= 42), ("restaurant≥60", len(rests) >= 60), ("poi≥75", len(pois) >= 75),
+                    ("supplier≥15", len(data["supplier"]) >= 15)]
     for name, ok in checks_scale:
         if not ok:
             raise AssertionError(f"规模不符：{name}")
     return checks
 
 
+CATALOG_TABLES = ("supplier", "hotel", "room_type", "vehicle", "restaurant", "poi", "ticket", "route", "history_plan")
+GOVERNED = {"hotel": "hotel_id", "restaurant": "rest_id", "poi": "poi_id", "vehicle": "vehicle_id",
+            "ticket": "ticket_id", "route": "route_id"}
+
+
+def assert_catalog(data: dict) -> list[tuple[str, bool, str]]:
+    """知识库规模、类目、标签体系、来源标注与引用完整性的验收（简历口径：约 300 家酒店、40 余家供应商、1,500 余条资料）。"""
+    from seed.taxonomy import SOURCE_TYPES, TAGS, VERIFIED_STATUS
+
+    checks = []
+    n = {k: len(data.get(k, [])) for k in CATALOG_TABLES}
+    total = sum(n.values())
+    checks.append(("C1 酒店 300 家", n["hotel"] == 300, f"{n['hotel']} 家"))
+    checks.append(("C2 供应商 ≥40 家", n["supplier"] >= 40, f"{n['supplier']} 家"))
+    checks.append(("C3 结构化资料 ≥1500 条（不含价格档）", total >= 1500, f"{total} 条"))
+    checks.append(("C4 七大类目齐全（酒店/房型/车辆/餐厅/门票/路线/历史方案）",
+                   all(n[k] > 0 for k in ("hotel", "room_type", "vehicle", "restaurant", "ticket", "route", "history_plan")),
+                   " / ".join(f"{k}={n[k]}" for k in CATALOG_TABLES)))
+    used = {t for k in ("hotel", "restaurant", "poi", "route") for r in data[k] for t in r.get("tags", [])}
+    unknown = sorted(used - set(TAGS))
+    checks.append(("C5 标签全部登记在标签字典", not unknown, f"{len(used)} 个标签" + (f"，未登记：{unknown}" if unknown else "")))
+    bad = [f"{k}:{r[key]}" for k, key in GOVERNED.items() for r in data[k]
+           if r.get("source_type") not in SOURCE_TYPES or r.get("verified_status") not in VERIFIED_STATUS
+           or not r.get("source_ref") or not r.get("review_due")
+           or (r["verified_status"] == "verified" and not (r.get("verified_by") and r.get("verified_at")))]
+    checks.append(("C6 每条资源有来源标注与校验状态", not bad, f"缺失 {len(bad)} 条" + (f"：{bad[:3]}" if bad else "")))
+    today = TODAY.isoformat()
+    drift = [r[key] for k, key in GOVERNED.items() for r in data[k]
+             if (r["verified_status"] == "expired") != (r["review_due"] < today and r["verified_status"] != "pending")]
+    checks.append(("C7 复核过期状态与到期日一致", not drift, f"不一致 {len(drift)} 条"))
+    ids = {k: {r[key] for r in data[k]} for k, key in (("hotel", "hotel_id"), ("poi", "poi_id"), ("route", "route_id"),
+                                                       ("supplier", "supplier_id"))}
+    dangling = ([r["room_id"] for r in data["room_type"] if r["hotel_id"] not in ids["hotel"]]
+                + [t["ticket_id"] for t in data["ticket"] if t["poi_id"] and t["poi_id"] not in ids["poi"]]
+                + [r["route_id"] for r in data["route"] for p in r["poi_ids"] if p not in ids["poi"]]
+                + [h["plan_id"] for h in data["history_plan"] for x in h["hotel_ids"] if x not in ids["hotel"]]
+                + [h["plan_id"] for h in data["history_plan"] for x in h["route_ids"] if x not in ids["route"]]
+                + [r.get("supplier_id") for k in ("hotel", "vehicle", "ticket") for r in data[k]
+                   if r.get("supplier_id") and r["supplier_id"] not in ids["supplier"]])
+    checks.append(("C8 引用完整（房型/门票/路线/历史方案/供应商外键）", not dangling, f"悬空 {len(dangling)} 个"))
+    priced = [k for k in ("ticket", "route", "history_plan") for r in data[k]
+              if any(f in r for f in ("price", "net_price", "price_cny"))]
+    checks.append(("C9 价格只存在于价格档表", not priced, "资料表无价格字段" if not priced else f"{priced[:3]}"))
+    return checks
+
+
 def main() -> None:
+    sys.path.insert(0, str(ROOT))
+    from seed.extend import extend
+
     suppliers = gen_suppliers()
     hotels, rooms, room_rates = gen_hotels()
     vehicles, veh_rates = gen_vehicles()
@@ -559,7 +608,8 @@ def main() -> None:
     data = {"supplier": suppliers, "hotel": hotels, "room_type": rooms,
             "rate_plan": room_rates + veh_rates + rest_rates + poi_rates,
             "vehicle": vehicles, "restaurant": rests, "poi": pois}
-    checks = assert_traps(data)
+    data = extend(data)          # 核心数据之后再扩充（独立随机种子，核心数据不变）
+    checks = assert_traps(data) + assert_catalog(data)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     for name, rows in data.items():
         (DATA_DIR / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -568,7 +618,7 @@ def main() -> None:
     for name, ok, note in checks:
         print(f"  [{'✓' if ok else '✗'}] {name}：{note}")
         passed += ok
-    print(f"约束陷阱校验：{passed}/{len(checks)} 通过")
+    print(f"约束陷阱 + 知识库验收：{passed}/{len(checks)} 通过")
     if passed != len(checks):
         sys.exit(1)
 
